@@ -3,33 +3,6 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <header className="transparent">
-            <div id="topbar">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="d-flex justify-content-between xs-hide">
-                                <div className="d-flex">
-                                    <div className="topbar-widget me-5"><a href="#"><i className="icofont-location-pin"></i>15A/14, East Patel Nagar, New Delhi – 110008</a></div>
-                                    <div className="topbar-widget me-5"><a href="#"><i className="icofont-phone"></i>+91 98925 45039</a></div>
-                                    <div className="topbar-widget me-5"><a href="#"><i className="icofont-envelope"></i>info@cdhydro.in</a></div>
-                                </div>
-
-                                <div className="d-flex">
-                                    <div className="social-icons">
-                                        <a href="#"><i className="fa-brands fa-facebook fa-lg"></i></a>
-                                        <a href="#"><i className="fa-brands fa-x-twitter fa-lg"></i></a>
-                                        <a href="#"><i className="fa-brands fa-youtube fa-lg"></i></a>
-                                        <a href="#"><i className="fa-brands fa-pinterest fa-lg"></i></a>
-                                        <a href="#"><i className="fa-brands fa-instagram fa-lg"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="clearfix"></div>
-                </div>
-            </div>
-
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
@@ -37,7 +10,7 @@ function Header() {
                             <div className="de-flex-col">
                                 <div id="logo">
                                     <Link to="/" style={{fontSize: '28px', fontWeight: '700', color: '#fff', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '10px'}}>
-                                        <img src="/assets/images/logo-icon.webp" alt="CD HYDRO" style={{height: '45px'}} />
+                                        <img src="/assets/images/background/CD Hydro Power logo-01.png" alt="CD HYDRO" style={{height: '45px'}} />
                                         <span>CD HYDRO</span>
                                     </Link>
                                 </div>
