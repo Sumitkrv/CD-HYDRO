@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/assets/images/icon.webp" type="image/gif" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CD Hydro - Hydroelectric & Green Hydrogen Energy Solutions" />
+    <meta name="keywords" content="hydroelectric power, green hydrogen, renewable energy, India net zero 2070, climate resilience" />
+    <meta name="author" content="CD Hydro Pvt. Ltd." />
+    <title>CD Hydro - Hydroelectric & Green Hydrogen Energy Solutions</title>
+    
+    <!-- CSS Files -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="/assets/css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/custom-swiper-1.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/datepicker.css" rel="stylesheet" type="text/css">
+    <link id="colors" href="/assets/css/colors/scheme-1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="root"></div>
+    
+    <!-- Javascript Files -->
+    <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/js/designesia.js"></script>
+    <script src="/assets/js/swiper.js"></script>
+    <script src="/assets/js/custom-swiper-1.js"></script>
+    <script src="/assets/js/custom-swiper-2.js"></script>
+    <script src="/assets/js/custom-swiper-3.js"></script>
+    <script src="/assets/js/custom-marquee.js"></script>
+    <script src="/assets/js/validation-contact.js"></script>
+    <script src="/assets/js/validation-booking.js"></script>
+    
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <script>
+    // Reinitialize JS plugins after React router navigation
+    if (window.MutationObserver) {
+      const observer = new MutationObserver(() => {
+        if (typeof designesia_refresh === 'function') {
+          setTimeout(() => designesia_refresh(), 100);
+        }
+      });
+      observer.observe(document.getElementById('root'), {
+        childList: true,
+        subtree: true
+      });
+    }
+    </script>
+</body>
+</html>
