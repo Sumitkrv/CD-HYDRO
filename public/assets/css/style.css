@@ -134,7 +134,7 @@ Table of content:
   --border-color:#bbbbbb;
   --container-max-width:1240px;
   /* button */
-  --btn-color: var(--heading-font-color);
+  --btn-color: #ffffff;
   --btn-font-family: var(--body-font);
   --btn-font-size: 15px;
   --btn-font-weight: bold;
@@ -502,6 +502,20 @@ header .header-col.mid .social-icons {
 .header-col-right {
   text-align: right;
 }
+/* jarallax – show cover image immediately (before JS initialises) */
+.jarallax {
+  position: relative;
+}
+.jarallax > img.jarallax-img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
 /* subheader */
 
 #subheader {
@@ -723,6 +737,11 @@ header.smaller #mainmenu>li::before{
   transform: scale(0);
 }
 
+#mainmenu>li.has-child:not(:has(ul)):after {
+  display: none !important;
+  content: none !important;
+}
+
 #mainmenu>li.has-child:after {
   font-family: FontAwesome;
   content: "\f078";
@@ -781,7 +800,8 @@ header.header-light #mainmenu a {
   font-size: 10px;
   text-transform: uppercase;
   line-height: 14px;
-  border-bottom: solid 2px #ffffff;
+  border-bottom: solid 2px var(--primary-color);
+  transition: width 0.3s ease;
 }
 
 #mainmenu li:hover a span:not(.badge) {
@@ -7213,7 +7233,7 @@ footer .tiny-border span {
   bottom: 0;
   width: 100%;
   height: 30%;
-  background: linear-gradient(0deg, rgba(var(--bg-dark-1-rgb), 1) 0%, rgba(var(--bg-dark-1-rgb), 0) 100%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .gradient-edge-bottom.color{
@@ -8383,6 +8403,7 @@ footer .tiny-border span {
     height: 100%;
     left:0;
     top: 0;
+    z-index: 1;
 }
 
 .swiper-slide{
@@ -8442,9 +8463,9 @@ p.slider-teaser{
 } 
 
 .sw-overlay{
-  background: -webkit-linear-gradient(0deg,rgba(var(--bg-dark-1-rgb), .6) 0%, rgba(var(--bg-dark-1-rgb), .6) 50%);
-  background: -moz-linear-gradient(0deg,rgba(var(--bg-dark-1-rgb), .6) 0%, rgba(var(--bg-dark-1-rgb), .6) 50%);
-  background: linear-gradient(0deg,rgba(var(--bg-dark-1-rgb), .6) 0%, rgba(var(--bg-dark-1-rgb), .6) 50%);
+  background: -webkit-linear-gradient(0deg,rgba(0, 0, 0, .55) 0%, rgba(0, 0, 0, .55) 50%);
+  background: -moz-linear-gradient(0deg,rgba(0, 0, 0, .55) 0%, rgba(0, 0, 0, .55) 50%);
+  background: linear-gradient(0deg,rgba(0, 0, 0, .55) 0%, rgba(0, 0, 0, .55) 50%);
 }
 
 .swiper-inner{
@@ -9961,7 +9982,34 @@ section.bg-grey {
 }
 
 .wow {
-  visibility: hidden;
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: none !important;
+  animation: none !important;
+}
+
+/* Prevent WOW.js from making content invisible after it activates animations */
+.animated.fadeIn,
+.animated.fadeInUp,
+.animated.fadeInDown,
+.animated.fadeInLeft,
+.animated.fadeInRight,
+.animated.flipInX,
+.animated.flipInY,
+.animated.zoomIn,
+.animated.bounceIn,
+.animated.bounceInUp,
+.animated.bounceInDown,
+.animated.slideInUp,
+.animated.slideInDown,
+.animated.slideInLeft,
+.animated.slideInRight,
+.animated.rollIn,
+.animated.rotateIn {
+  animation: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
 }
 
 #back-to-top {

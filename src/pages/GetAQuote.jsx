@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function GetAQuote() {
   return (
     <div className="no-bottom no-top" id="content">
@@ -14,7 +16,7 @@ function GetAQuote() {
               <h1 className="mb-3 wow fadeInUp" data-wow-delay=".2s">Get A Quote</h1>
               <div className="border-bottom mb-3"></div>
               <ul className="crumb wow fadeInUp">
-                <li><a href="index.html">Home</a></li>
+                <li><Link to="/">Home</Link></li>
                 <li className="active">Get A Quote</li>
               </ul>
             </div>
@@ -196,7 +198,7 @@ function GetAQuote() {
                 <div className="row g-4 grid-divider sm-hide">
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_phone"></i>
+                      <i className="fs-60 id-color fa-solid fa-phone"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Need Our Services?</h4>
                         <p>Call: +1 800 987 654</p>
@@ -206,7 +208,7 @@ function GetAQuote() {
                   
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_clock"></i>
+                      <i className="fs-60 id-color fa-solid fa-clock"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Work Hours</h4>
                         <p>Mon to Sat 08:00 - 17:00</p>
@@ -216,7 +218,7 @@ function GetAQuote() {
 
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_mail"></i>
+                      <i className="fs-60 id-color fa-solid fa-envelope"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Email Us</h4>
                         <p>info@cdhydro.in</p>

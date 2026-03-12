@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function ProjectsCarousel() {
   return (
     <div className="no-bottom no-top" id="content">
@@ -13,7 +15,7 @@ function ProjectsCarousel() {
               <h1 className="mb-3 wow fadeInUp" data-wow-delay=".2s">Our Projects</h1>
               <div className="border-bottom mb-3"></div>
               <ul className="crumb wow fadeInUp">
-                <li><a href="index.html">Home</a></li>
+                <li><Link to="/">Home</Link></li>
                 <li className="active">Our Projects</li>
               </ul>   
             </div>
@@ -36,7 +38,7 @@ function ProjectsCarousel() {
 
                     <div id="project-single-carousel" className="owl-3-cols owl-carousel owl-theme">
                       <div className="item">
-                        <a href="project-single.html">
+                        <Link to="/project-single">
                           <div className="hover rounded-1 relative overflow-hidden text-light">
                             <div className="abs p-40 top-0 z-3">
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
@@ -49,11 +51,11 @@ function ProjectsCarousel() {
                             <img src="/assets/images/projects/1.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="item">
-                        <a href="project-single.html">
+                        <Link to="/project-single">
                           <div className="hover rounded-1 relative overflow-hidden text-light">
                             <div className="abs p-40 top-0 z-3">
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
@@ -66,11 +68,11 @@ function ProjectsCarousel() {
                             <img src="/assets/images/projects/2.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="item">
-                        <a href="project-single.html">
+                        <Link to="/project-single">
                           <div className="hover rounded-1 relative overflow-hidden text-light">
                             <div className="abs p-40 top-0 z-3">
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
@@ -83,11 +85,11 @@ function ProjectsCarousel() {
                             <img src="/assets/images/projects/3.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="item">
-                        <a href="project-single.html">
+                        <Link to="/project-single">
                           <div className="hover rounded-1 relative overflow-hidden text-light">
                             <div className="abs p-40 top-0 z-3">
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
@@ -100,11 +102,11 @@ function ProjectsCarousel() {
                             <img src="/assets/images/projects/4.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="item">
-                        <a href="project-single.html">
+                        <Link to="/project-single">
                           <div className="hover rounded-1 relative overflow-hidden text-light">
                             <div className="abs p-40 top-0 z-3">
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
@@ -117,11 +119,11 @@ function ProjectsCarousel() {
                             <img src="/assets/images/projects/5.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="item">
-                        <a href="project-single.html">
+                        <Link to="/project-single">
                           <div className="hover rounded-1 relative overflow-hidden text-light">
                             <div className="abs p-40 top-0 z-3">
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
@@ -134,7 +136,7 @@ function ProjectsCarousel() {
                             <img src="/assets/images/projects/6.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -153,7 +155,7 @@ function ProjectsCarousel() {
                 <div className="row g-4 grid-divider sm-hide">
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_phone"></i>
+                      <i className="fs-60 id-color fa-solid fa-phone"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Need Our Services?</h4>
                         <p>Call: +1 800 987 654</p>
@@ -163,7 +165,7 @@ function ProjectsCarousel() {
                   
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_clock"></i>
+                      <i className="fs-60 id-color fa-solid fa-clock"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Work Hours</h4>
                         <p>Mon to Sat 08:00 - 17:00</p>
@@ -173,7 +175,7 @@ function ProjectsCarousel() {
 
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_mail"></i>
+                      <i className="fs-60 id-color fa-solid fa-envelope"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Email Us</h4>
                         <p>info@cdhydro.in</p>

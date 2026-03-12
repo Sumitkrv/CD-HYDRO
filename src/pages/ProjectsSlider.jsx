@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function ProjectsSlider() {
   return (
     <div className="no-bottom no-top" id="content">
@@ -17,7 +19,7 @@ function ProjectsSlider() {
                             <div className="spacer-double"></div>
                             <div className="subtitle me-4 id-color">Home Installation</div>
                             <h1 className="wow anim-order-1">BrightHome Energy</h1>
-                            <a className="btn-main fx-slide" href="project-single.html"><span>View Details</span></a>
+                            <Link className="btn-main fx-slide" to="/project-single"><span>View Details</span></Link>
                           </div>
                         </div>
                       </div>
@@ -37,7 +39,7 @@ function ProjectsSlider() {
                             <div className="spacer-double"></div>
                             <div className="subtitle me-4 id-color">Solar Panel Upgrades</div>
                             <h1 className="wow anim-order-1">GreenMart Supermarket</h1>
-                            <a className="btn-main fx-slide" href="project-single.html"><span>View Details</span></a>
+                            <Link className="btn-main fx-slide" to="/project-single"><span>View Details</span></Link>
                           </div>
                         </div>
                       </div>
@@ -57,7 +59,7 @@ function ProjectsSlider() {
                             <div className="spacer-double"></div>
                             <div className="subtitle me-4 id-color">Custom System Design</div>
                             <h1 className="wow anim-order-1">EcoSchool Initiative</h1>
-                            <a className="btn-main fx-slide" href="project-single.html"><span>View Details</span></a>
+                            <Link className="btn-main fx-slide" to="/project-single"><span>View Details</span></Link>
                           </div>
                         </div>
                       </div>
@@ -77,7 +79,7 @@ function ProjectsSlider() {
                             <div className="spacer-double"></div>
                             <div className="subtitle me-4 id-color">System Monitoring & Reporting</div>
                             <h1 className="wow anim-order-1">UrbanSolar 360</h1>
-                            <a className="btn-main fx-slide" href="project-single.html"><span>View Details</span></a>
+                            <Link className="btn-main fx-slide" to="/project-single"><span>View Details</span></Link>
                           </div>
                         </div>
                       </div>
@@ -97,7 +99,7 @@ function ProjectsSlider() {
                             <div className="spacer-double"></div>
                             <div className="subtitle me-4 id-color">Community Project</div>
                             <h1 className="wow anim-order-1">CD HYDRO Cares</h1>
-                            <a className="btn-main fx-slide" href="project-single.html"><span>View Details</span></a>
+                            <Link className="btn-main fx-slide" to="/project-single"><span>View Details</span></Link>
                           </div>
                         </div>
                       </div>
@@ -117,7 +119,7 @@ function ProjectsSlider() {
                             <div className="spacer-double"></div>
                             <div className="subtitle me-4 id-color">Solar Battery Storage</div>
                             <h1 className="wow anim-order-1">SunSmart Office</h1>
-                            <a className="btn-main fx-slide" href="project-single.html"><span>View Details</span></a>
+                            <Link className="btn-main fx-slide" to="/project-single"><span>View Details</span></Link>
                           </div>
                         </div>
                       </div>

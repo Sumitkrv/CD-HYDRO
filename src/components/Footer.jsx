@@ -7,7 +7,10 @@ function Footer() {
                 <div className="container relative z-2">
                     <div className="row gx-5">
                         <div className="col-lg-4 col-sm-6">
-                            <img src="/assets/images/logo-white.webp" className="logo-footer" alt="" />
+                            <Link to="/" style={{display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none'}}>
+                                <img src="/assets/images/background/CD Hydro Power logo-01.png" alt="CD HYDRO" style={{height: '50px', width: 'auto'}} />
+                                <span style={{fontSize: '24px', fontWeight: '700', color: '#fff', letterSpacing: '0.5px'}}>CD HYDRO</span>
+                            </Link>
                             <div className="spacer-20"></div>
                             <p>CD Hydro is shaping the clean energy landscape with hydroelectric innovation that supports India's green hydrogen ambitions, advances deep decarbonization, and moves the nation closer to net-zero by 2070.</p>
 
@@ -26,12 +29,12 @@ function Footer() {
                                     <div className="widget">
                                         <h5>Our Services</h5>
                                         <ul>
-                                            <li><Link to="/service-single">Hydroelectric Power Plants</Link></li>
-                                            <li><Link to="/service-single">Green Hydrogen Production</Link></li>
-                                            <li><Link to="/service-single">Renewable Energy Infrastructure</Link></li>
-                                            <li><Link to="/service-single">Grid Stability Solutions</Link></li>
-                                            <li><Link to="/service-single">Climate Resilience Projects</Link></li>
-                                            <li><Link to="/service-single">Deep Decarbonization Systems</Link></li>
+                                            <li><Link to="/services">Hydroelectric Power Plants</Link></li>
+                                            <li><Link to="/services">Green Hydrogen Production</Link></li>
+                                            <li><Link to="/services">Renewable Energy Infrastructure</Link></li>
+                                            <li><Link to="/services">Grid Stability Solutions</Link></li>
+                                            <li><Link to="/services">Climate Resilience Projects</Link></li>
+                                            <li><Link to="/services">Deep Decarbonization Systems</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -57,21 +60,21 @@ function Footer() {
                                 <h5>Contact Us</h5>
 
                                 <div className="fw-bold text-white d-flex align-items-center">
-                                    <i className="icofont-location-pin me-2 id-color"></i><span>Head Office</span>
+                                    <i className="fa-solid fa-location-dot me-2 id-color"></i><span>Head Office</span>
                                 </div>
                                 15A/14, East Patel Nagar, New Delhi – 110008
 
                                 <div className="spacer-20"></div>
 
                                 <div className="fw-bold text-white d-flex align-items-center">
-                                    <i className="icofont-phone me-2 id-color"></i><span>Call Us</span>
+                                    <i className="fa-solid fa-phone me-2 id-color"></i><span>Call Us</span>
                                 </div>
                                 +91 98925 45039
 
                                 <div className="spacer-20"></div>
 
                                 <div className="fw-bold text-white d-flex align-items-center">
-                                    <i className="icofont-envelope me-2 id-color"></i><span>Email Us</span>
+                                    <i className="fa-solid fa-envelope me-2 id-color"></i><span>Email Us</span>
                                 </div>
                                 info@cdhydro.in
                             </div>
@@ -110,7 +113,10 @@ function Footer() {
                 </div>
 
                 <div id="extra-content">
-                    <img src="/assets/images/logo-white.webp" className="w-150px" alt="" />
+                    <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
+                        <img src="/assets/images/background/CD Hydro Power logo-01.png" alt="CD HYDRO" style={{height: '40px'}} />
+                        <span style={{fontSize: '22px', fontWeight: '700', color: '#fff', letterSpacing: '0.5px'}}>CD HYDRO</span>
+                    </div>
 
                     <div className="spacer-30-line"></div>
 
@@ -127,9 +133,9 @@ function Footer() {
                     <div className="spacer-30-line"></div>
 
                     <h5>Contact Us</h5>
-                    <div><i className="icofont-clock-time me-2 op-5"></i>Monday - Friday 08.00 - 18.00</div>
-                    <div><i className="icofont-location-pin me-2 op-5"></i>15A/14, East Patel Nagar, New Delhi – 110008</div>
-                    <div><i className="icofont-envelope me-2 op-5"></i>info@cdhydro.in</div>
+                    <div><i className="fa-solid fa-clock me-2 op-5"></i>Monday - Friday 08.00 - 18.00</div>
+                    <div><i className="fa-solid fa-location-dot me-2 op-5"></i>15A/14, East Patel Nagar, New Delhi – 110008</div>
+                    <div><i className="fa-solid fa-envelope me-2 op-5"></i>info@cdhydro.in</div>
 
                     <div className="spacer-30-line"></div>
 

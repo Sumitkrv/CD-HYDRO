@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Industries() {
   return (
     <div className="no-bottom no-top" id="content">
@@ -14,7 +16,7 @@ function Industries() {
               <h1 className="mb-3 wow fadeInUp" data-wow-delay=".2s">Industries We Serve</h1>
               <div className="border-bottom mb-3"></div>
               <ul className="crumb wow fadeInUp">
-                <li><a href="index.html">Home</a></li>
+                <li><Link to="/">Home</Link></li>
                 <li className="active">Industries</li>
               </ul>
             </div>
@@ -40,129 +42,129 @@ function Industries() {
           <div className="row g-4">
             <div className="col-lg-3 col-md-6">
               <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="service-single.html">
+                <Link className="d-block relative overflow-hidden text-light" to="/services">
                   <div className="absolute start-0 w-100 abs-centered text-center">
                     <div className="relative z-2">
-                      <i className="d-block icofont-home mb-3 id-color-2 fs-60 wow zoomIn"></i>
+                      <i className="d-block fa-solid fa-house mb-3 id-color-2 fs-60 wow zoomIn"></i>
                       <h4 className="wow fadeIn" data-wow-delay=".25s">Residential</h4>
                       <p className="wow fadeIn" data-wow-delay=".3s">Custom solar systems for homes</p>
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/industries/1.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6">
               <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="service-single.html">
+                <Link className="d-block relative overflow-hidden text-light" to="/services">
                   <div className="absolute start-0 w-100 abs-centered text-center">
                     <div className="relative z-2">
-                      <i className="d-block icofont-building mb-3 id-color-2 fs-60 wow zoomIn"></i>
+                      <i className="d-block fa-solid fa-building mb-3 id-color-2 fs-60 wow zoomIn"></i>
                       <h4 className="wow fadeIn" data-wow-delay=".25s">Commercial</h4>
                       <p className="wow fadeIn" data-wow-delay=".3s">Reduce operating costs for businesses</p>
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/industries/2.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6">
               <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="service-single.html">
+                <Link className="d-block relative overflow-hidden text-light" to="/services">
                   <div className="absolute start-0 w-100 abs-centered text-center">
                     <div className="relative z-2">
-                      <i className="d-block icofont-industries mb-3 id-color-2 fs-60 wow zoomIn"></i>
+                      <i className="d-block fa-solid fa-industry mb-3 id-color-2 fs-60 wow zoomIn"></i>
                       <h4 className="wow fadeIn" data-wow-delay=".25s">Industrial</h4>
                       <p className="wow fadeIn" data-wow-delay=".3s">Large-scale power for factories</p>
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/industries/3.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6">
               <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="service-single.html">
+                <Link className="d-block relative overflow-hidden text-light" to="/services">
                   <div className="absolute start-0 w-100 abs-centered text-center">
                     <div className="relative z-2">
-                      <i className="d-block icofont-read-book-alt mb-3 id-color-2 fs-60 wow zoomIn"></i>
+                      <i className="d-block fa-solid fa-graduation-cap mb-3 id-color-2 fs-60 wow zoomIn"></i>
                       <h4 className="wow fadeIn" data-wow-delay=".25s">Education</h4>
                       <p className="wow fadeIn" data-wow-delay=".3s">Sustainable energy for schools</p>
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/industries/4.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6">
               <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="service-single.html">
+                <Link className="d-block relative overflow-hidden text-light" to="/services">
                   <div className="absolute start-0 w-100 abs-centered text-center">
                     <div className="relative z-2">
-                      <i className="d-block icofont-stethoscope mb-3 id-color-2 fs-60 wow zoomIn"></i>
+                      <i className="d-block fa-solid fa-stethoscope mb-3 id-color-2 fs-60 wow zoomIn"></i>
                       <h4 className="wow fadeIn" data-wow-delay=".25s">Healthcare</h4>
                       <p className="wow fadeIn" data-wow-delay=".3s">Reliable power for medical facilities</p>
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/industries/5.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6">
               <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="service-single.html">
+                <Link className="d-block relative overflow-hidden text-light" to="/services">
                   <div className="absolute start-0 w-100 abs-centered text-center">
                     <div className="relative z-2">
-                      <i className="d-block icofont-farmer-alt mb-3 id-color-2 fs-60 wow zoomIn"></i>
+                      <i className="d-block fa-solid fa-tractor mb-3 id-color-2 fs-60 wow zoomIn"></i>
                       <h4 className="wow fadeIn" data-wow-delay=".25s">Agriculture</h4>
                       <p className="wow fadeIn" data-wow-delay=".3s">Power for farms and irrigation</p>
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/industries/6.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6">
               <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="service-single.html">
+                <Link className="d-block relative overflow-hidden text-light" to="/services">
                   <div className="absolute start-0 w-100 abs-centered text-center">
                     <div className="relative z-2">
-                      <i className="d-block icofont-flag mb-3 id-color-2 fs-60 wow zoomIn"></i>
+                      <i className="d-block fa-solid fa-landmark mb-3 id-color-2 fs-60 wow zoomIn"></i>
                       <h4 className="wow fadeIn" data-wow-delay=".25s">Government</h4>
                       <p className="wow fadeIn" data-wow-delay=".3s">Public sector solar solutions</p>
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/industries/7.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6">
               <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="service-single.html">
+                <Link className="d-block relative overflow-hidden text-light" to="/services">
                   <div className="absolute start-0 w-100 abs-centered text-center">
                     <div className="relative z-2">
-                      <i className="d-block icofont-hotel-boy-alt mb-3 id-color-2 fs-60 wow zoomIn"></i>
+                      <i className="d-block fa-solid fa-hotel mb-3 id-color-2 fs-60 wow zoomIn"></i>
                       <h4 className="wow fadeIn" data-wow-delay=".25s">Hospitality</h4>
                       <p className="wow fadeIn" data-wow-delay=".3s">Energy solutions for hotels & resorts</p>
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/industries/8.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -177,7 +179,7 @@ function Industries() {
                 <div className="row g-4 grid-divider sm-hide">
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_phone"></i>
+                      <i className="fs-60 id-color fa-solid fa-phone"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Need Our Services?</h4>
                         <p>Call: +1 800 987 654</p>
@@ -187,7 +189,7 @@ function Industries() {
                   
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_clock"></i>
+                      <i className="fs-60 id-color fa-solid fa-clock"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Work Hours</h4>
                         <p>Mon to Sat 08:00 - 17:00</p>
@@ -197,7 +199,7 @@ function Industries() {
 
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_mail"></i>
+                      <i className="fs-60 id-color fa-solid fa-envelope"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Email Us</h4>
                         <p>info@cdhydro.in</p>

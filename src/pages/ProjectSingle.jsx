@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function ProjectSingle() {
   return (
     <div className="no-bottom no-top" id="content">
@@ -14,8 +16,8 @@ function ProjectSingle() {
               <h1 className="mb-3 wow fadeInUp" data-wow-delay=".2s">Residential Solar Installation</h1>
               <div className="border-bottom mb-3"></div>
               <ul className="crumb wow fadeInUp">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/projects">Projects</Link></li>
                 <li className="active">Project Details</li>
               </ul>
             </div>
@@ -80,23 +82,23 @@ function ProjectSingle() {
               <div className="de-box mb-3 wow fadeInRight">
                 <h4>Project Details</h4>
                 <div className="d-flex justify-content-between mb-2">
-                  <span><i className="icofont-ui-calendar me-2 id-color"></i>Date:</span>
+                  <span><i className="fa-solid fa-calendar-days me-2 id-color"></i>Date:</span>
                   <span>June 2023</span>
                 </div>
                 <div className="d-flex justify-content-between mb-2">
-                  <span><i className="icofont-location-pin me-2 id-color"></i>Location:</span>
+                  <span><i className="fa-solid fa-location-dot me-2 id-color"></i>Location:</span>
                   <span>San Diego, CA</span>
                 </div>
                 <div className="d-flex justify-content-between mb-2">
-                  <span><i className="icofont-tag me-2 id-color"></i>Category:</span>
+                  <span><i className="fa-solid fa-tag me-2 id-color"></i>Category:</span>
                   <span>Residential</span>
                 </div>
                 <div className="d-flex justify-content-between mb-2">
-                  <span><i className="icofont-flash me-2 id-color"></i>System Size:</span>
+                  <span><i className="fa-solid fa-bolt me-2 id-color"></i>System Size:</span>
                   <span>8.5 kW</span>
                 </div>
                 <div className="d-flex justify-content-between">
-                  <span><i className="icofont-wall-clock me-2 id-color"></i>Duration:</span>
+                  <span><i className="fa-solid fa-clock me-2 id-color"></i>Duration:</span>
                   <span>2 Days</span>
                 </div>
               </div>
@@ -119,7 +121,7 @@ function ProjectSingle() {
               <div className="de-box wow fadeInRight" data-wow-delay=".3s">
                 <h4>Interested in Solar?</h4>
                 <p className="mb-3">Get a free consultation and custom quote for your property.</p>
-                <a href="get-a-quote.html" className="btn-main w-100">Get A Quote</a>
+                <Link to="/get-a-quote" className="btn-main w-100">Get A Quote</Link>
               </div>
             </div>
           </div>
@@ -134,7 +136,7 @@ function ProjectSingle() {
                 <div className="row g-4 grid-divider sm-hide">
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_phone"></i>
+                      <i className="fs-60 id-color fa-solid fa-phone"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Need Our Services?</h4>
                         <p>Call: +1 800 987 654</p>
@@ -144,7 +146,7 @@ function ProjectSingle() {
                   
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_clock"></i>
+                      <i className="fs-60 id-color fa-solid fa-clock"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Work Hours</h4>
                         <p>Mon to Sat 08:00 - 17:00</p>
@@ -154,7 +156,7 @@ function ProjectSingle() {
 
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_mail"></i>
+                      <i className="fs-60 id-color fa-solid fa-envelope"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Email Us</h4>
                         <p>info@cdhydro.in</p>

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function About() {
   return (
     <div className="no-bottom no-top" id="content">
@@ -14,7 +16,7 @@ function About() {
               <h1 className="mb-3 wow fadeInUp" data-wow-delay=".2s">About Us</h1>
               <div className="border-bottom mb-3"></div>
               <ul className="crumb wow fadeInUp">
-                <li><a href="index.html">Home</a></li>
+                <li><Link to="/">Home</Link></li>
                 <li className="active">About Us</li>
               </ul>
             </div>
@@ -88,7 +90,7 @@ function About() {
                 <li>Reduce reliance on the grid and rising utility costs.</li>
               </ul>
 
-              <a className="btn-main fx-slide wow fadeInUp" data-wow-delay=".9s" href="get-a-quote.html"><span>Get a Quote</span></a>
+              <Link className="btn-main fx-slide wow fadeInUp" data-wow-delay=".9s" to="/get-a-quote"><span>Get a Quote</span></Link>
 
             </div>
             
@@ -184,89 +186,6 @@ function About() {
 
       </section>
 
-      <section className="bg-light">
-        <div className="container">
-          <div className="row g-4 justify-content-center">
-            <div className="col-lg-6 text-center">
-              <div className="subtitle wow fadeInUp mb-3">Our Team</div>
-              <h2 className="wow fadeInUp" data-wow-delay=".2s">Meet the Solar Experts Behind Your Energy Freedom</h2>
-              <div className="spacer-single"></div>
-            </div>
-          </div>
-
-          <div className="row g-4">
-            <div className="col-lg-3 col-sm-6">
-              <div className="de-team-list">
-                <div className="team-pic wow fadeInUp">
-                  <img src="/assets/images/team/1.webp" className="img-fluid rounded-1" alt="" />
-                </div>
-                <div className="team-desc text-center">
-                  <h3 className="wow fadeInUp">Michael Carter</h3>
-                  <p className="lead wow fadeInUp">Founder & CEO</p>
-                  <div className="social-icons wow fadeInUp">
-                    <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i className="fa-brands fa-x-twitter"></i></a>
-                    <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="de-team-list">
-                <div className="team-pic wow fadeInUp">
-                  <img src="/assets/images/team/2.webp" className="img-fluid rounded-1" alt="" />
-                </div>
-                <div className="team-desc text-center">
-                  <h3 className="wow fadeInUp">Emily Rivera</h3>
-                  <p className="lead wow fadeInUp">Chief Operating Officer</p>
-                  <div className="social-icons wow fadeInUp">
-                    <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i className="fa-brands fa-x-twitter"></i></a>
-                    <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="de-team-list">
-                <div className="team-pic wow fadeInUp">
-                  <img src="/assets/images/team/3.webp" className="img-fluid rounded-1" alt="" />
-                </div>
-                <div className="team-desc text-center">
-                  <h3 className="wow fadeInUp">David Chen</h3>
-                  <p className="lead wow fadeInUp">Lead Installation Engineer</p>
-                  <div className="social-icons wow fadeInUp">
-                    <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i className="fa-brands fa-x-twitter"></i></a>
-                    <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="de-team-list">
-                <div className="team-pic wow fadeInUp">
-                  <img src="/assets/images/team/4.webp" className="img-fluid rounded-1" alt="" />
-                </div>
-                <div className="team-desc text-center">
-                  <h3 className="wow fadeInUp">Sarah Thompson</h3>
-                  <p className="lead wow fadeInUp">Customer Success Manager</p>
-                  <div className="social-icons wow fadeInUp">
-                    <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i className="fa-brands fa-x-twitter"></i></a>
-                    <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
       <section className="bg-dark text-light pt-60 pb-40">
         <div className="container">
           <div className="row">
@@ -275,7 +194,7 @@ function About() {
                 <div className="row g-4 grid-divider sm-hide">
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_phone"></i>
+                      <i className="fs-60 id-color fa-solid fa-phone"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Need Our Services?</h4>
                         <p>Call: +1 800 987 654</p>
@@ -285,7 +204,7 @@ function About() {
                   
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_clock"></i>
+                      <i className="fs-60 id-color fa-solid fa-clock"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Work Hours</h4>
                         <p>Mon to Sat 08:00 - 17:00</p>
@@ -295,7 +214,7 @@ function About() {
 
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_mail"></i>
+                      <i className="fs-60 id-color fa-solid fa-envelope"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Email Us</h4>
                         <p>info@cdhydro.in</p>

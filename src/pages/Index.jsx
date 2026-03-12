@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Index() {
   return (
     <div className="no-bottom no-top" id="content">
@@ -11,17 +13,17 @@ function Index() {
 
         <div className="position-absolute w-100 h-100 top-0 start-0" style={{background: "rgba(0,0,0,0.6)", zIndex: 1}}></div>
 
-        <div className="container position-relative h-100" style={{zIndex: 2}}>
+        <div className="container position-relative h-100 px-4" style={{zIndex: 2}}>
           <div className="row h-100 align-items-center">
-            <div className="col-lg-8">
-              <h1 className="mb-4 wow fadeInUp" style={{fontSize: "72px"}}>
+            <div className="col-lg-8 col-md-10 col-12">
+              <h1 className="mb-3 mb-md-4 wow fadeInUp" style={{fontSize: "clamp(28px, 6vw, 72px)", lineHeight: 1.1}}>
                 Aligned with India's<br />
                 2070 Net Zero Goal
               </h1>
-              <p className="lead mb-4 wow fadeInUp" data-wow-delay=".2s">
+              <p className="mb-3 mb-md-4 wow fadeInUp" data-wow-delay=".2s" style={{fontSize: "clamp(14px, 2.5vw, 18px)", lineHeight: 1.6}}>
                 Shaping the clean energy landscape with hydroelectric innovation that supports India's green hydrogen ambitions, advances deep decarbonization, and moves the nation closer to net-zero.
               </p>
-              <a className="btn-main fx-slide wow fadeInUp" data-wow-delay=".4s" href="get-a-quote.html"><span>Get Started</span></a>
+              <Link className="btn-main fx-slide wow fadeInUp" data-wow-delay=".4s" to="/get-a-quote"><span>Get Started</span></Link>
             </div>
           </div>
         </div>
@@ -91,7 +93,7 @@ function Index() {
                 <li>Real progress toward deep decarbonization</li>
               </ul>
 
-              <a className="btn-main fx-slide wow fadeInUp" data-wow-delay=".9s" href="get-a-quote.html"><span>Get a Quote</span></a>
+              <Link className="btn-main fx-slide wow fadeInUp" data-wow-delay=".9s" to="/get-a-quote"><span>Get a Quote</span></Link>
 
             </div>
             
@@ -101,22 +103,22 @@ function Index() {
       </section>
 
       <section className="section-dark p-0" aria-label="section">
-        <div className="bg-color text-dark d-flex py-4 lh-1">
-          <div className="de-marquee-list-2 wow fadeIn">
+        <div className="bg-color text-white d-flex py-4 lh-1">
+          <div className="de-marquee-list-2">
             <span className="fs-40 fw-600 mx-3">Hydroelectric Power</span>
-            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/logo-icon-dark.webp" className="w-40px" alt="" /></span>
+            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/background/CD Hydro Power logo-01.png" className="h-40px" style={{width: 'auto'}} alt="CD Hydro" /></span>
             <span className="fs-40 fw-600 mx-3">Green Hydrogen</span>
-            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/logo-icon-dark.webp" className="w-40px" alt="" /></span>
+            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/background/CD Hydro Power logo-01.png" className="h-40px" style={{width: 'auto'}} alt="CD Hydro" /></span>
             <span className="fs-40 fw-600 mx-3">Grid Stability</span>
-            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/logo-icon-dark.webp" className="w-40px" alt="" /></span>
+            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/background/CD Hydro Power logo-01.png" className="h-40px" style={{width: 'auto'}} alt="CD Hydro" /></span>
             <span className="fs-40 fw-600 mx-3">Climate Resilience</span>
-            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/logo-icon-dark.webp" className="w-40px" alt="" /></span>
+            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/background/CD Hydro Power logo-01.png" className="h-40px" style={{width: 'auto'}} alt="CD Hydro" /></span>
             <span className="fs-40 fw-600 mx-3">Net Zero 2070</span>
-            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/logo-icon-dark.webp" className="w-40px" alt="" /></span>
+            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/background/CD Hydro Power logo-01.png" className="h-40px" style={{width: 'auto'}} alt="CD Hydro" /></span>
             <span className="fs-40 fw-600 mx-3">Deep Decarbonization</span>
-            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/logo-icon-dark.webp" className="w-40px" alt="" /></span>
+            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/background/CD Hydro Power logo-01.png" className="h-40px" style={{width: 'auto'}} alt="CD Hydro" /></span>
             <span className="fs-40 fw-600 mx-3">Renewable Energy</span>
-            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/logo-icon-dark.webp" className="w-40px" alt="" /></span>
+            <span className="fs-40 fw-600 mx-3"><img src="/assets/images/background/CD Hydro Power logo-01.png" className="h-40px" style={{width: 'auto'}} alt="CD Hydro" /></span>
           </div>
         </div>
       </section>
@@ -138,16 +140,16 @@ function Index() {
             <div className="col-lg-4 col-sm-6">
               <div className="hover">
                 <div className="position-relative overflow-hidden">
-                  <a href="service-single.html" className="d-block hover">
+                  <Link to="/services" className="d-block hover">
                     <div className="position-relative overflow-hidden rounded-1">
                       <img src="/assets/images/services/1.webp" className="w-100 hover-scale-1-2" alt="" />
                     </div>
-                  </a>
+                  </Link>
                   <div className="p-30 position-relative bg-white rounded-1 mx-4 mt-min-100">
                     <div className="position-absolute top-0 end-0 mt-min-30 me-4 circle bg-color w-60px h-60px">
-                      <a href="project-single.html">
+                      <Link to="/project-single">
                         <img src="/assets/images/misc/up-right-arrow.webp" className="w-60px p-20" alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <h4>Hydroelectric Power Plants</h4>
                     <p className="mb-0">Large-scale clean energy generation with long operational lifespans.</p>
@@ -159,16 +161,16 @@ function Index() {
             <div className="col-lg-4 col-sm-6">
               <div className="hover">
                 <div className="position-relative overflow-hidden">
-                  <a href="service-single.html" className="d-block hover">
+                  <Link to="/services" className="d-block hover">
                     <div className="position-relative overflow-hidden rounded-1">
                       <img src="/assets/images/services/2.webp" className="w-100 hover-scale-1-2" alt="" />
                     </div>
-                  </a>
+                  </Link>
                   <div className="p-30 position-relative bg-white rounded-1 mx-4 mt-min-100">
                     <div className="position-absolute top-0 end-0 mt-min-30 me-4 circle bg-color w-60px h-60px">
-                      <a href="project-single.html">
+                      <Link to="/project-single">
                         <img src="/assets/images/misc/up-right-arrow.webp" className="w-60px p-20" alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <h4>Green Hydrogen Production</h4>
                     <p className="mb-0">Direct support for India's hydrogen economy and net-zero goals.</p>
@@ -180,16 +182,16 @@ function Index() {
             <div className="col-lg-4 col-sm-6">
               <div className="hover">
                 <div className="position-relative overflow-hidden">
-                  <a href="service-single.html" className="d-block hover">
+                  <Link to="/services" className="d-block hover">
                     <div className="position-relative overflow-hidden rounded-1">
                       <img src="/assets/images/services/3.webp" className="w-100 hover-scale-1-2" alt="" />
                     </div>
-                  </a>
+                  </Link>
                   <div className="p-30 position-relative bg-white rounded-1 mx-4 mt-min-100">
                     <div className="position-absolute top-0 end-0 mt-min-30 me-4 circle bg-color w-60px h-60px">
-                      <a href="project-single.html">
+                      <Link to="/project-single">
                         <img src="/assets/images/misc/up-right-arrow.webp" className="w-60px p-20" alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <h4>Grid Stability Solutions</h4>
                     <p className="mb-0">Ensuring reliable power supply for renewables-heavy grids.</p>
@@ -200,7 +202,7 @@ function Index() {
 
 
             <div className="text-center">
-              <a className="btn-main fx-slide" href="services.html"><span>View All Services</span></a>
+              <Link className="btn-main fx-slide" to="/services"><span>View All Services</span></Link>
             </div>
 
           </div>
@@ -229,7 +231,7 @@ function Index() {
 
                     <div id="project-single-carousel" className="owl-3-cols owl-carousel owl-theme">
                       <div className="item">
-                        <a href="project-single.html">
+                        <Link to="/project-single">
                           <div className="hover rounded-1 position-relative overflow-hidden text-light">
                             <div className="position-absolute p-40 top-0 z-3">
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
@@ -242,11 +244,11 @@ function Index() {
                             <img src="/assets/images/projects/1.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="item">
-                        <a href="project-single.html">
+                        <Link to="/project-single">
                           <div className="hover rounded-1 position-relative overflow-hidden text-light">
                             <div className="position-absolute p-40 top-0 z-3">
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
@@ -259,11 +261,11 @@ function Index() {
                             <img src="/assets/images/projects/2.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="item">
-                        <a href="project-single.html">
+                        <Link to="/project-single">
                           <div className="hover rounded-1 position-relative overflow-hidden text-light">
                             <div className="position-absolute p-40 top-0 z-3">
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
@@ -276,11 +278,11 @@ function Index() {
                             <img src="/assets/images/projects/3.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="item">
-                        <a href="project-single.html">
+                        <Link to="/project-single">
                           <div className="hover rounded-1 position-relative overflow-hidden text-light">
                             <div className="position-absolute p-40 top-0 z-3">
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
@@ -293,11 +295,11 @@ function Index() {
                             <img src="/assets/images/projects/4.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="item">
-                        <a href="project-single.html">
+                        <Link to="/project-single">
                           <div className="hover rounded-1 position-relative overflow-hidden text-light">
                             <div className="position-absolute p-40 top-0 z-3">
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
@@ -310,11 +312,11 @@ function Index() {
                             <img src="/assets/images/projects/5.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="item">
-                        <a href="project-single.html">
+                        <Link to="/project-single">
                           <div className="hover rounded-1 position-relative overflow-hidden text-light">
                             <div className="position-absolute p-40 top-0 z-3">
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
@@ -327,7 +329,7 @@ function Index() {
                             <img src="/assets/images/projects/6.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -402,52 +404,6 @@ function Index() {
             </div>
           </div>
         </div>
-      </section>
-
-      <section className="bg-color py-5 pb-4">
-        <div className="container position-relative z-1">
-          <div className="row g-4 gx-5 align-items-center">
-
-            <div className="col-lg-12">
-              <div className="position-relative">
-                <div className="row g-4 grid-divider sm-hide">
-                  <div className="col-lg-4 col-md-6 mb-sm-30 wow fadeIn fadeInRight" data-wow-delay=".2s">
-                    <div className="d-flex justify-content-center">
-                      <i className="fs-60 text-dark icon_phone"></i>
-                      <div className="ms-3">
-                        <h4 className="mb-0">Need Our Services?</h4>
-                        <p className="text-dark">Call: +1 800 987 654</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="col-lg-4 col-md-6 mb-sm-30 wow fadeIn fadeInRight" data-wow-delay=".4s">
-                    <div className="d-flex justify-content-center">
-                      <i className="fs-60 text-dark icon_clock"></i>
-                      <div className="ms-3">
-                        <h4 className="mb-0">Work Hours</h4>
-                        <p className="text-dark">Mon to Sat 08:00 - 17:00</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-4 col-md-6 mb-sm-30 wow fadeIn fadeInRight" data-wow-delay=".6s">
-                    <div className="d-flex justify-content-center">
-                      <i className="fs-60 text-dark icon_mail"></i>
-                      <div className="ms-3">
-                        <h4 className="mb-0">Email Us</h4>
-                        <p className="text-dark">info@cdhydro.in</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
       </section>
 
     </div>

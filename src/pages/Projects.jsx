@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Projects() {
   return (
     <div className="no-bottom no-top" id="content">
@@ -14,7 +16,7 @@ function Projects() {
               <h1 className="mb-3 wow fadeInUp" data-wow-delay=".2s">Our Projects</h1>
               <div className="border-bottom mb-3"></div>
               <ul className="crumb wow fadeInUp">
-                <li><a href="index.html">Home</a></li>
+                <li><Link to="/">Home</Link></li>
                 <li className="active">Projects</li>
               </ul>
             </div>
@@ -39,9 +41,9 @@ function Projects() {
 
           <div className="row g-4">
             <div className="col-lg-4 col-md-6">
-              <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="project-single.html">
-                  <div className="absolute start-0 w-100 abs-centered p-4">
+              <div className="relative hover text-white">
+                <Link className="d-block relative overflow-hidden text-white" to="/project-single">
+                  <div className="absolute start-0 w-100 p-4" style={{top: "50%", transform: "translateY(-50%)", textShadow: "1px 1px 4px rgba(0,0,0,0.85)"}}>
                     <div className="relative z-2">
                       <h4 className="wow fadeIn">San Diego Residence</h4>
                       <p className="mb-0 wow fadeIn" data-wow-delay=".2s">8.5 kW Residential System</p>
@@ -50,14 +52,14 @@ function Projects() {
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/projects/1.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="project-single.html">
-                  <div className="absolute start-0 w-100 abs-centered p-4">
+              <div className="relative hover text-white">
+                <Link className="d-block relative overflow-hidden text-white" to="/project-single">
+                  <div className="absolute start-0 w-100 p-4" style={{top: "50%", transform: "translateY(-50%)", textShadow: "1px 1px 4px rgba(0,0,0,0.85)"}}>
                     <div className="relative z-2">
                       <h4 className="wow fadeIn">Tech Campus</h4>
                       <p className="mb-0 wow fadeIn" data-wow-delay=".2s">250 kW Commercial Installation</p>
@@ -66,14 +68,14 @@ function Projects() {
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/projects/2.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="project-single.html">
-                  <div className="absolute start-0 w-100 abs-centered p-4">
+              <div className="relative hover text-white">
+                <Link className="d-block relative overflow-hidden text-white" to="/project-single">
+                  <div className="absolute start-0 w-100 p-4" style={{top: "50%", transform: "translateY(-50%)", textShadow: "1px 1px 4px rgba(0,0,0,0.85)"}}>
                     <div className="relative z-2">
                       <h4 className="wow fadeIn">Manufacturing Facility</h4>
                       <p className="mb-0 wow fadeIn" data-wow-delay=".2s">500 kW Industrial System</p>
@@ -82,14 +84,14 @@ function Projects() {
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/projects/3.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="project-single.html">
-                  <div className="absolute start-0 w-100 abs-centered p-4">
+              <div className="relative hover text-white">
+                <Link className="d-block relative overflow-hidden text-white" to="/project-single">
+                  <div className="absolute start-0 w-100 p-4" style={{top: "50%", transform: "translateY(-50%)", textShadow: "1px 1px 4px rgba(0,0,0,0.85)"}}>
                     <div className="relative z-2">
                       <h4 className="wow fadeIn">Luxury Estate</h4>
                       <p className="mb-0 wow fadeIn" data-wow-delay=".2s">12 kW with Battery Storage</p>
@@ -98,14 +100,14 @@ function Projects() {
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/projects/4.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="project-single.html">
-                  <div className="absolute start-0 w-100 abs-centered p-4">
+              <div className="relative hover text-white">
+                <Link className="d-block relative overflow-hidden text-white" to="/project-single">
+                  <div className="absolute start-0 w-100 p-4" style={{top: "50%", transform: "translateY(-50%)", textShadow: "1px 1px 4px rgba(0,0,0,0.85)"}}>
                     <div className="relative z-2">
                       <h4 className="wow fadeIn">School District</h4>
                       <p className="mb-0 wow fadeIn" data-wow-delay=".2s">180 kW Educational Complex</p>
@@ -114,14 +116,14 @@ function Projects() {
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/projects/5.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="relative hover text-light">
-                <a className="d-block relative overflow-hidden text-light" href="project-single.html">
-                  <div className="absolute start-0 w-100 abs-centered p-4">
+              <div className="relative hover text-white">
+                <Link className="d-block relative overflow-hidden text-white" to="/project-single">
+                  <div className="absolute start-0 w-100 p-4" style={{top: "50%", transform: "translateY(-50%)", textShadow: "1px 1px 4px rgba(0,0,0,0.85)"}}>
                     <div className="relative z-2">
                       <h4 className="wow fadeIn">Agricultural Farm</h4>
                       <p className="mb-0 wow fadeIn" data-wow-delay=".2s">75 kW Irrigation System</p>
@@ -130,7 +132,7 @@ function Projects() {
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
                   <img src="/assets/images/projects/6.webp" className="w-100 hover-scale-1-1" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -188,7 +190,7 @@ function Projects() {
                 <div className="row g-4 grid-divider sm-hide">
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_phone"></i>
+                      <i className="fs-60 id-color fa-solid fa-phone"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Need Our Services?</h4>
                         <p>Call: +1 800 987 654</p>
@@ -198,7 +200,7 @@ function Projects() {
                   
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_clock"></i>
+                      <i className="fs-60 id-color fa-solid fa-clock"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Work Hours</h4>
                         <p>Mon to Sat 08:00 - 17:00</p>
@@ -208,7 +210,7 @@ function Projects() {
 
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_mail"></i>
+                      <i className="fs-60 id-color fa-solid fa-envelope"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Email Us</h4>
                         <p>info@cdhydro.in</p>

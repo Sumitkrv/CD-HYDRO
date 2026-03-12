@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Contact() {
   return (
     <div className="no-bottom no-top" id="content">
@@ -14,7 +16,7 @@ function Contact() {
               <h1 className="mb-3 wow fadeInUp" data-wow-delay=".2s">Contact Us</h1>
               <div className="border-bottom mb-3"></div>
               <ul className="crumb wow fadeInUp">
-                <li><a href="index.html">Home</a></li>
+                <li><Link to="/">Home</Link></li>
                 <li className="active">Contact</li>
               </ul>
             </div>
@@ -85,20 +87,20 @@ function Contact() {
               <div className="de-box mb-3">
                 <h4>US Office</h4>
                 <address className="s1">
-                  <span><i className="icofont-location-pin me-2 id-color"></i>100 Solar Ave, San Diego, CA</span>
-                  <span><i className="icofont-phone me-2 id-color"></i>+1 800 987 654</span>
-                  <span><i className="icofont-envelope me-2 id-color"></i><a href="mailto:info@cdhydro.in">info@cdhydro.in</a></span>
-                  <span><i className="icofont-clock-time me-2 id-color"></i>Mon - Sat 08:00 - 17:00</span>
+                  <span><i className="fa-solid fa-location-dot me-2 id-color"></i>100 Solar Ave, San Diego, CA</span>
+                  <span><i className="fa-solid fa-phone me-2 id-color"></i>+1 800 987 654</span>
+                  <span><i className="fa-solid fa-envelope me-2 id-color"></i><a href="mailto:info@cdhydro.in">info@cdhydro.in</a></span>
+                  <span><i className="fa-solid fa-clock me-2 id-color"></i>Mon - Sat 08:00 - 17:00</span>
                 </address>
               </div>
 
               <div className="de-box mb-3">
                 <h4>UK Office</h4>
                 <address className="s1">
-                  <span><i className="icofont-location-pin me-2 id-color"></i>45 Solar Street, London, UK</span>
-                  <span><i className="icofont-phone me-2 id-color"></i>+44 20 7946 0958</span>
-                  <span><i className="icofont-envelope me-2 id-color"></i><a href="mailto:info@cdhydro.in">info@cdhydro.in</a></span>
-                  <span><i className="icofont-clock-time me-2 id-color"></i>Mon - Fri 09:00 - 18:00</span>
+                  <span><i className="fa-solid fa-location-dot me-2 id-color"></i>45 Solar Street, London, UK</span>
+                  <span><i className="fa-solid fa-phone me-2 id-color"></i>+44 20 7946 0958</span>
+                  <span><i className="fa-solid fa-envelope me-2 id-color"></i><a href="mailto:info@cdhydro.in">info@cdhydro.in</a></span>
+                  <span><i className="fa-solid fa-clock me-2 id-color"></i>Mon - Fri 09:00 - 18:00</span>
                 </address>
               </div>
 
@@ -127,7 +129,7 @@ function Contact() {
                 <div className="row g-4 grid-divider sm-hide">
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_phone"></i>
+                      <i className="fs-60 id-color fa-solid fa-phone"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Need Our Services?</h4>
                         <p>Call: +1 800 987 654</p>
@@ -137,7 +139,7 @@ function Contact() {
                   
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_clock"></i>
+                      <i className="fs-60 id-color fa-solid fa-clock"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Work Hours</h4>
                         <p>Mon to Sat 08:00 - 17:00</p>
@@ -147,7 +149,7 @@ function Contact() {
 
                   <div className="col-lg-4 col-md-6 mb-sm-30">
                     <div className="d-flex justify-content-center">
-                      <i className="fs-60 id-color icon_mail"></i>
+                      <i className="fs-60 id-color fa-solid fa-envelope"></i>
                       <div className="ms-3">
                         <h4 className="mb-0">Email Us</h4>
                         <p>info@cdhydro.in</p>
