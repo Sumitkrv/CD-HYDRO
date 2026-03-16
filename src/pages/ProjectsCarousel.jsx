@@ -48,7 +48,7 @@ function ProjectsCarousel() {
                               <p className="mb-0 hover-mh-60">Home Installation</p>
                             </div>
                             <div className="hover-op-05 bg-dark abs w-100 h-100 top-0 start-0 z-2"></div>
-                            <img src="/assets/images/projects/1.webp" className="w-100 hover-scale-1-2" alt="" />
+                            <img src="/assets/images/background/1.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
                         </Link>
@@ -62,10 +62,10 @@ function ProjectsCarousel() {
                             </div>
                             <div className="abs p-40 bottom-0 z-3">                            
                               <h3>GreenMart Supermarket</h3>
-                              <p className="mb-0 hover-mh-60">Solar Panel Upgrades</p>
+                              <p className="mb-0 hover-mh-60">Turbine Upgrades</p>
                             </div>
                             <div className="hover-op-05 bg-dark abs w-100 h-100 top-0 start-0 z-2"></div>
-                            <img src="/assets/images/projects/2.webp" className="w-100 hover-scale-1-2" alt="" />
+                            <img src="/assets/images/background/2.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
                         </Link>
@@ -82,7 +82,7 @@ function ProjectsCarousel() {
                               <p className="mb-0 hover-mh-60">Custom System Design</p>
                             </div>
                             <div className="hover-op-05 bg-dark abs w-100 h-100 top-0 start-0 z-2"></div>
-                            <img src="/assets/images/projects/3.webp" className="w-100 hover-scale-1-2" alt="" />
+                            <img src="/assets/images/background/3.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
                         </Link>
@@ -95,11 +95,11 @@ function ProjectsCarousel() {
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
                             </div>
                             <div className="abs p-40 bottom-0 z-3">                            
-                              <h3>UrbanSolar 360</h3>
+                              <h3>Urban Hydro 360</h3>
                               <p className="mb-0 hover-mh-60">System Monitoring & Reporting</p>
                             </div>
                             <div className="hover-op-05 bg-dark abs w-100 h-100 top-0 start-0 z-2"></div>
-                            <img src="/assets/images/projects/4.webp" className="w-100 hover-scale-1-2" alt="" />
+                            <img src="/assets/images/background/4.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
                         </Link>
@@ -116,7 +116,7 @@ function ProjectsCarousel() {
                               <p className="mb-0 hover-mh-60">Community Project</p>
                             </div>
                             <div className="hover-op-05 bg-dark abs w-100 h-100 top-0 start-0 z-2"></div>
-                            <img src="/assets/images/projects/5.webp" className="w-100 hover-scale-1-2" alt="" />
+                            <img src="/assets/images/background/4.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
                         </Link>
@@ -130,10 +130,10 @@ function ProjectsCarousel() {
                             </div>
                             <div className="abs p-40 bottom-0 z-3">                            
                               <h3>SunSmart Office</h3>
-                              <p className="mb-0 hover-mh-60">Solar Battery Storage</p>
+                              <p className="mb-0 hover-mh-60">Pumped Storage Integration</p>
                             </div>
                             <div className="hover-op-05 bg-dark abs w-100 h-100 top-0 start-0 z-2"></div>
-                            <img src="/assets/images/projects/6.webp" className="w-100 hover-scale-1-2" alt="" />
+                            <img src="/assets/images/background/5.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
                         </Link>

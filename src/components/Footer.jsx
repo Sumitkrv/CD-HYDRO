@@ -1,10 +1,28 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function Footer() {
+    const location = useLocation();
+
     return (
         <>
-            <footer className="section-dark">
-                <div className="container relative z-2">
+            {location.pathname === '/' && (
+                <div style={{height: '18px', background: '#efefef'}}></div>
+            )}
+
+            <footer className="section-dark" style={{position: 'relative', overflow: 'hidden'}}>
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    style={{position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover'}}
+                >
+                    <source src="/assets/images/WhatsApp%20Video%202026-01-21%20at%204.56.02%20PM.mp4" type="video/mp4" />
+                </video>
+
+                <div style={{position: 'absolute', inset: 0, background: 'rgba(8, 15, 28, 0.72)', zIndex: 1}}></div>
+
+                <div className="container relative z-2" style={{position: 'relative', zIndex: 2}}>
                     <div className="row gx-5">
                         <div className="col-lg-4 col-sm-6">
                             <Link to="/" style={{display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none'}}>
@@ -45,9 +63,7 @@ function Footer() {
                                         <ul>
                                             <li><Link to="/">Home</Link></li>
                                             <li><Link to="/services">Our Services</Link></li>
-                                            <li><Link to="/projects">Projects</Link></li>
                                             <li><Link to="/about">About Us</Link></li>
-                                            <li><Link to="/blog">Blog</Link></li>
                                             <li><Link to="/contact">Contact</Link></li>
                                         </ul>
                                     </div>
@@ -82,7 +98,7 @@ function Footer() {
                     </div>
                 </div>
 
-                <div className="subfooter">
+                <div className="subfooter" style={{position: 'relative', zIndex: 2}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
@@ -100,10 +116,6 @@ function Footer() {
                     </div>
                 </div>
 
-                <div className="abs w-50 end-0 bottom-0 op-3">
-                    <img src="/assets/images/misc/c1.webp" className="w-100 rtl-hide wow fadeInRight" data-wow-duration="2s" alt="" />
-                    <img src="/assets/images/misc/c1-flip.webp" className="w-100 rtl-show wow fadeInLeft" data-wow-duration="2s" alt="" />
-                </div>
             </footer>
 
             <div id="extra-wrap" className="text-light">

@@ -7,7 +7,7 @@ function GetAQuote() {
       <div id="top"></div>
 
       <section id="subheader" className="bg-dark text-light position-relative jarallax">
-        <img src="/assets/images/background/w3.webp" className="jarallax-img" alt="" />
+        <img src="/assets/images/background/7.webp" className="jarallax-img" alt="" />
         <div className="container position-relative z-2">
           <div className="row gy-4 gx-5 align-items-center">
             <div className="col-lg-12">
@@ -35,8 +35,8 @@ function GetAQuote() {
               
               <form name="bookingForm" id='booking_form' method="post" action='booking.php'>
                 <div className="de-form-group mb-3 text-center">
-                  <h3>Request a Solar Consultation</h3>
-                  <p>Fill out the form below and our team will contact you shortly to discuss your solar energy needs.</p>
+                  <h3>Request a Hydro Consultation</h3>
+                  <p>Fill out the form below and our team will contact you shortly to discuss your hydro energy requirements.</p>
                 </div>
 
                 <div className="spacer-30"></div>
@@ -69,11 +69,11 @@ function GetAQuote() {
                       <label>Service</label>
                       <select name='service' id='service' className="form-control" required>
                         <option value="">Select Service</option>
-                        <option value="residential">Residential Solar</option>
-                        <option value="commercial">Commercial Solar</option>
-                        <option value="industrial">Industrial Solar</option>
-                        <option value="battery">Battery Storage</option>
-                        <option value="maintenance">Maintenance</option>
+                        <option value="small-hydro">Small Hydro Project</option>
+                        <option value="run-of-river">Run-of-River Hydro</option>
+                        <option value="pumped-storage">Pumped Storage Hydro</option>
+                        <option value="green-hydrogen">Green Hydrogen Integration</option>
+                        <option value="maintenance">Operations &amp; Maintenance</option>
                         <option value="consultation">Consultation Only</option>
                       </select>
                     </div>

@@ -32,8 +32,8 @@ function Industries() {
           <div className="row g-4">
             <div className="col-lg-12 text-center">
               <div className="subtitle wow fadeInUp mb-3">Who We Work With</div>
-              <h2 className="wow fadeInUp" data-wow-delay=".2s">Comprehensive Solar Solutions</h2>
-              <p className="lead wow fadeInUp" data-wow-delay=".3s">From residential to industrial, we provide tailored solar solutions for every sector.</p>
+              <h2 className="wow fadeInUp" data-wow-delay=".2s">Comprehensive Hydro Solutions</h2>
+              <p className="lead wow fadeInUp" data-wow-delay=".3s">From community-scale systems to industrial energy corridors, we provide tailored hydro solutions for every sector.</p>
             </div>
           </div>
 
@@ -47,11 +47,11 @@ function Industries() {
                     <div className="relative z-2">
                       <i className="d-block fa-solid fa-house mb-3 id-color-2 fs-60 wow zoomIn"></i>
                       <h4 className="wow fadeIn" data-wow-delay=".25s">Residential</h4>
-                      <p className="wow fadeIn" data-wow-delay=".3s">Custom solar systems for homes</p>
+                      <p className="wow fadeIn" data-wow-delay=".3s">Community hydro-linked clean energy access</p>
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/industries/1.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/1.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>
@@ -67,7 +67,7 @@ function Industries() {
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/industries/2.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/2.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>
@@ -83,7 +83,7 @@ function Industries() {
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/industries/3.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/3.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>
@@ -99,7 +99,7 @@ function Industries() {
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/industries/4.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/4.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>
@@ -115,7 +115,7 @@ function Industries() {
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/industries/5.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/4.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>
@@ -131,7 +131,7 @@ function Industries() {
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/industries/6.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/5.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>
@@ -143,11 +143,11 @@ function Industries() {
                     <div className="relative z-2">
                       <i className="d-block fa-solid fa-landmark mb-3 id-color-2 fs-60 wow zoomIn"></i>
                       <h4 className="wow fadeIn" data-wow-delay=".25s">Government</h4>
-                      <p className="wow fadeIn" data-wow-delay=".3s">Public sector solar solutions</p>
+                      <p className="wow fadeIn" data-wow-delay=".3s">Public sector hydro and resilience solutions</p>
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/industries/7.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/6.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>
@@ -163,7 +163,7 @@ function Industries() {
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/industries/8.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/7.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>

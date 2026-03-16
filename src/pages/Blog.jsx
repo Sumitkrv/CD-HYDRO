@@ -34,7 +34,7 @@ function Blog() {
             <div className="col-lg-6 wow fadeInUp">
               <div className="position-relative overflow-hidden rounded-1">
                 <Link to="/blog-single">
-                  <img src="/assets/images/blog/1.webp" className="w-100 hover-scale-1-2" alt="Featured Post" style={{transition: '.5s'}} />
+                  <img src="/assets/images/background/1.webp" className="w-100 hover-scale-1-2" alt="Featured Post" style={{transition: '.5s'}} />
                 </Link>
                 <div className="position-absolute bottom-0 start-0 p-3 z-2">
                   <span className="badge bg-color text-white fw-600 px-3 py-2" style={{fontSize: '12px'}}>FEATURED</span>
@@ -110,7 +110,7 @@ function Blog() {
                 <div className="position-relative overflow-hidden">
                   <Link to="/blog-single" className="d-block hover">
                     <div className="position-relative overflow-hidden rounded-1">
-                      <img src="/assets/images/blog/2.webp" className="w-100 hover-scale-1-2" alt="" />
+                      <img src="/assets/images/background/2.webp" className="w-100 hover-scale-1-2" alt="" />
                       <div className="position-absolute top-0 start-0 p-3 z-2">
                         <span className="badge bg-dark text-white px-3 py-2" style={{fontSize: '11px'}}>HYDROPOWER</span>
                       </div>
@@ -136,7 +136,7 @@ function Blog() {
                 <div className="position-relative overflow-hidden">
                   <Link to="/blog-single" className="d-block hover">
                     <div className="position-relative overflow-hidden rounded-1">
-                      <img src="/assets/images/blog/3.webp" className="w-100 hover-scale-1-2" alt="" />
+                      <img src="/assets/images/background/3.webp" className="w-100 hover-scale-1-2" alt="" />
                       <div className="position-absolute top-0 start-0 p-3 z-2">
                         <span className="badge bg-dark text-white px-3 py-2" style={{fontSize: '11px'}}>GREEN HYDROGEN</span>
                       </div>
@@ -162,7 +162,7 @@ function Blog() {
                 <div className="position-relative overflow-hidden">
                   <Link to="/blog-single" className="d-block hover">
                     <div className="position-relative overflow-hidden rounded-1">
-                      <img src="/assets/images/blog/4.webp" className="w-100 hover-scale-1-2" alt="" />
+                      <img src="/assets/images/background/4.webp" className="w-100 hover-scale-1-2" alt="" />
                       <div className="position-absolute top-0 start-0 p-3 z-2">
                         <span className="badge bg-dark text-white px-3 py-2" style={{fontSize: '11px'}}>POLICY</span>
                       </div>
@@ -188,7 +188,7 @@ function Blog() {
                 <div className="position-relative overflow-hidden">
                   <Link to="/blog-single" className="d-block hover">
                     <div className="position-relative overflow-hidden rounded-1">
-                      <img src="/assets/images/blog/5.webp" className="w-100 hover-scale-1-2" alt="" />
+                      <img src="/assets/images/background/4.webp" className="w-100 hover-scale-1-2" alt="" />
                       <div className="position-absolute top-0 start-0 p-3 z-2">
                         <span className="badge bg-dark text-white px-3 py-2" style={{fontSize: '11px'}}>GRID STABILITY</span>
                       </div>
@@ -202,7 +202,7 @@ function Blog() {
                     <h4 style={{lineHeight: '1.4'}}>
                       <Link to="/blog-single" style={{textDecoration: 'none', color: 'inherit'}}>How Pumped Storage Hydro Stabilizes India's Renewable Grid</Link>
                     </h4>
-                    <p className="mb-0" style={{fontSize: '14px', color: '#666'}}>Pumped-storage hydropower acts as a giant battery for the grid, absorbing excess solar and wind energy and releasing it during peak demand.</p>
+                    <p className="mb-0" style={{fontSize: '14px', color: '#666'}}>Pumped-storage hydropower acts as a giant battery for the grid, absorbing excess variable renewable energy and releasing it during peak demand.</p>
                   </div>
                 </div>
               </div>
@@ -214,7 +214,7 @@ function Blog() {
                 <div className="position-relative overflow-hidden">
                   <Link to="/blog-single" className="d-block hover">
                     <div className="position-relative overflow-hidden rounded-1">
-                      <img src="/assets/images/blog/6.webp" className="w-100 hover-scale-1-2" alt="" />
+                      <img src="/assets/images/background/5.webp" className="w-100 hover-scale-1-2" alt="" />
                       <div className="position-absolute top-0 start-0 p-3 z-2">
                         <span className="badge bg-dark text-white px-3 py-2" style={{fontSize: '11px'}}>SUSTAINABILITY</span>
                       </div>
@@ -240,7 +240,7 @@ function Blog() {
                 <div className="position-relative overflow-hidden">
                   <Link to="/blog-single" className="d-block hover">
                     <div className="position-relative overflow-hidden rounded-1">
-                      <img src="/assets/images/blog/1.webp" className="w-100 hover-scale-1-2" alt="" />
+                      <img src="/assets/images/background/6.webp" className="w-100 hover-scale-1-2" alt="" />
                       <div className="position-absolute top-0 start-0 p-3 z-2">
                         <span className="badge bg-dark text-white px-3 py-2" style={{fontSize: '11px'}}>INNOVATION</span>
                       </div>

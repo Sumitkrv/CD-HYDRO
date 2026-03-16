@@ -7,7 +7,7 @@ function HowItWorks() {
       <div id="top"></div>
 
       <section id="subheader" className="bg-dark text-light position-relative jarallax">
-        <img src="/assets/images/background/w4.webp" className="jarallax-img" alt="" />
+        <img src="/assets/images/background/6.webp" className="jarallax-img" alt="" />
         <div className="container position-relative z-2">
           <div className="row gy-4 gx-5 align-items-center">
             <div className="col-lg-12">
@@ -33,7 +33,7 @@ function HowItWorks() {
             <div className="col-lg-12 text-center">
               <div className="subtitle wow fadeInUp mb-3">Simple Process</div>
               <h2 className="wow fadeInUp" data-wow-delay=".2s">From Consultation to Activation</h2>
-              <p className="lead wow fadeInUp" data-wow-delay=".3s">Going solar is easier than you think. Our streamlined process ensures a smooth transition to clean energy.</p>
+              <p className="lead wow fadeInUp" data-wow-delay=".3s">Building hydro infrastructure is simpler with the right execution model. Our process ensures safe delivery from concept to operations.</p>
             </div>
           </div>
 
@@ -41,7 +41,7 @@ function HowItWorks() {
 
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeInLeft">
-              <img src="/assets/images/misc/4.webp" className="img-fluid rounded" alt="" />
+              <img src="/assets/images/background/1.webp" className="img-fluid rounded" alt="" />
             </div>
 
             <div className="col-lg-6 wow fadeInRight">
@@ -51,13 +51,13 @@ function HowItWorks() {
                 </div>
                 <div>
                   <h4>Site Evaluation</h4>
-                  <p>Our experts visit your property to assess roof condition, sun exposure, and energy needs. We'll determine the optimal system size and provide a detailed proposal with estimated savings.</p>
+                  <p>Our experts assess water flow, head potential, terrain, and grid connectivity. We define project feasibility, expected output, and phased execution planning.</p>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-6 order-lg-2 wow fadeInRight">
-              <img src="/assets/images/misc/5.webp" className="img-fluid rounded" alt="" />
+              <img src="/assets/images/background/2.webp" className="img-fluid rounded" alt="" />
             </div>
 
             <div className="col-lg-6 order-lg-1 wow fadeInLeft">
@@ -67,13 +67,13 @@ function HowItWorks() {
                 </div>
                 <div>
                   <h4>Design & Permitting</h4>
-                  <p>Once you approve the proposal, we design your custom solar system and handle all permits and paperwork. Our team manages utility applications and approvals so you don't have to.</p>
+                  <p>After feasibility approval, we complete hydraulic, electrical, and civil design while handling clearances, permits, and utility coordination end-to-end.</p>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-6 wow fadeInLeft">
-              <img src="/assets/images/misc/6.webp" className="img-fluid rounded" alt="" />
+              <img src="/assets/images/background/3.webp" className="img-fluid rounded" alt="" />
             </div>
 
             <div className="col-lg-6 wow fadeInRight">
@@ -83,13 +83,13 @@ function HowItWorks() {
                 </div>
                 <div>
                   <h4>Professional Installation</h4>
-                  <p>Our certified technicians install your solar panels with precision and care. Most residential installations are completed in 1-3 days. We ensure minimal disruption to your daily routine.</p>
+                  <p>Our execution teams deliver civil works, electro-mechanical installation, and turbine integration with strict quality and safety controls.</p>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-6 order-lg-2 wow fadeInRight">
-              <img src="/assets/images/misc/7.webp" className="img-fluid rounded" alt="" />
+              <img src="/assets/images/background/4.webp" className="img-fluid rounded" alt="" />
             </div>
 
             <div className="col-lg-6 order-lg-1 wow fadeInLeft">
@@ -99,7 +99,7 @@ function HowItWorks() {
                 </div>
                 <div>
                   <h4>Activation & Monitoring</h4>
-                  <p>After final inspection and approval, we activate your system. You'll receive access to our monitoring platform to track your energy production and savings in real-time from anywhere.</p>
+                  <p>After testing and commissioning, we synchronize with the grid and enable continuous digital monitoring for generation, reliability, and performance analytics.</p>
                 </div>
               </div>
             </div>

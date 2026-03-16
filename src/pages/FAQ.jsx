@@ -34,40 +34,40 @@ function FAQ() {
               <div className="accordion s2 wow fadeInUp">
                 <div className="accordion-section">
                   <div className="accordion-section-title" data-tab="#accordion-1">
-                    How does solar energy work?
+                    How does hydroelectric energy work?
                   </div>
                   <div className="accordion-section-content" id="accordion-1">
-                    Solar panels absorb sunlight using photovoltaic (PV) cells, which convert it into direct current (DC) electricity. An inverter then transforms that into alternating current (AC), which powers your home or business.
+                    Hydropower uses flowing or falling water to spin turbines connected to generators. This converts hydraulic energy into reliable grid-quality electricity.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-2">
-                    Will solar panels reduce my energy bills?
+                    Can hydropower lower long-term energy costs?
                   </div>
                   <div className="accordion-section-content" id="accordion-2">
-                    Yes. By generating your own electricity, you can significantly reduce or even eliminate your monthly utility bills, depending on your system size and energy usage.
+                    Yes. Hydro projects deliver stable renewable output over long lifecycles, helping reduce dependency on high-cost fossil generation and improving cost predictability.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-3">
-                    Is my home suitable for solar panels?
+                    What makes a site suitable for hydro?
                   </div>
                   <div className="accordion-section-content" id="accordion-3">
-                    Most homes are. Ideally, you'll need a roof with good sun exposure (minimal shade), enough space for the panels, and a structure in good condition. We provide a free assessment to confirm suitability.
+                    Suitable sites typically have dependable flow, viable head, geotechnical stability, and practical grid access. Feasibility studies confirm technical and environmental viability.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-4">
-                    What's the lifespan of a solar system?
+                    What is the lifespan of hydro infrastructure?
                   </div>
                   <div className="accordion-section-content" id="accordion-4">
-                    Solar panels typically last 25–30 years or more. Inverters and batteries may need replacement sooner, but most systems continue to function well with minimal maintenance.
+                    Hydropower assets can operate for several decades with planned maintenance and periodic refurbishment, making them one of the longest-life renewable technologies.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-5">
-                    Do solar panels work on cloudy days?
+                    Is hydropower reliable year-round?
                   </div>
                   <div className="accordion-section-content" id="accordion-5">
-                    Yes, solar panels still generate electricity in cloudy conditions—just at a lower output. Efficiency may drop by 10–25%, but you'll still be producing power.
+                    In well-designed projects, yes. Seasonal variations are handled through reservoir strategy, flow management, and operational planning to maintain dependable output.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-6">
-                    How much do solar panels cost?
+                    How are hydro project costs estimated?
                   </div>
                   <div className="accordion-section-content" id="accordion-6">
-                    The cost varies based on system size, location, and incentives. Most residential systems range from $15,000–$30,000 before tax credits. We offer free quotes to give you an accurate estimate.
+                    Costs depend on civil scope, electro-mechanical equipment, site terrain, and transmission connectivity. We provide stage-wise estimates after feasibility assessment.
                   </div>
                 </div>
               </div>
@@ -77,40 +77,40 @@ function FAQ() {
               <div className="accordion s2 wow fadeInUp">
                 <div className="accordion-section">
                   <div className="accordion-section-title" data-tab="#accordion-7">
-                    Are there tax incentives for solar?
+                    Are there incentives for hydro projects?
                   </div>
                   <div className="accordion-section-content" id="accordion-7">
-                    Yes. The federal Investment Tax Credit (ITC) allows you to deduct 30% of your solar installation cost from your taxes. Many states also offer additional rebates and incentives.
+                    Incentives and policy support vary by region and project category. Our team aligns project structuring with available renewable and infrastructure programs.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-8">
-                    How long does installation take?
+                    How long does hydro project execution take?
                   </div>
                   <div className="accordion-section-content" id="accordion-8">
-                    Most residential installations take 1–3 days. The entire process, including permits and inspections, typically takes 1–3 months from consultation to activation.
+                    Timelines vary by project scale and approvals. Typical delivery includes feasibility, permitting, civil works, equipment installation, and commissioning phases.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-9">
-                    Do I need battery storage?
+                    Is storage required with hydropower?
                   </div>
                   <div className="accordion-section-content" id="accordion-9">
-                    Not necessarily. Most systems connect to the grid, so excess power is sent back and you draw from the grid at night. However, batteries provide backup power during outages and maximize savings.
+                    Not always. Many hydro systems provide dispatchable output directly. For additional flexibility, pumped storage can be integrated for peak balancing and reserve support.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-10">
-                    Will solar panels damage my roof?
+                    Is hydropower environmentally manageable?
                   </div>
                   <div className="accordion-section-content" id="accordion-10">
-                    No. Professional installers use proven mounting techniques that protect your roof. In many cases, solar panels actually help protect the roof beneath them from weather damage.
+                    Yes, with proper planning. We apply environmental impact assessments, flow management, and mitigation strategies to ensure responsible project development.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-11">
-                    Can I go completely off-grid?
+                    Can hydro support remote or off-grid locations?
                   </div>
                   <div className="accordion-section-content" id="accordion-11">
-                    Yes, but it requires a larger system and battery storage. Most customers opt for grid-tied systems to ensure reliable power and take advantage of net metering programs.
+                    Yes. Mini and micro hydro systems can support remote communities, while larger projects can connect to regional grids for broad energy access.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-12">
-                    What maintenance do solar panels require?
+                    What maintenance does hydro equipment need?
                   </div>
                   <div className="accordion-section-content" id="accordion-12">
-                    Solar panels are low-maintenance. Rain usually cleans them naturally. We recommend an annual inspection and occasional cleaning if you live in a dusty area. Inverters may need replacement every 10–15 years.
+                    Hydro systems require scheduled turbine, generator, and civil inspections, along with condition monitoring. Preventive maintenance ensures high availability and long service life.
                   </div>
                 </div>
               </div>

@@ -5,17 +5,12 @@ import Footer from './components/Footer';
 
 import Index from './pages/Index';
 import About from './pages/About';
-import Blog from './pages/Blog';
-import BlogSingle from './pages/BlogSingle';
 import Contact from './pages/Contact';
 import FAQ from './pages/FAQ';
 import GetAQuote from './pages/GetAQuote';
 import HowItWorks from './pages/HowItWorks';
 import Industries from './pages/Industries';
 import ProjectSingle from './pages/ProjectSingle';
-import Projects from './pages/Projects';
-import ProjectsCarousel from './pages/ProjectsCarousel';
-import ProjectsSlider from './pages/ProjectsSlider';
 import Services from './pages/Services';
 
 function ScrollToTop() {
@@ -173,17 +168,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog-single" element={<BlogSingle />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/get-a-quote" element={<GetAQuote />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/project-single" element={<ProjectSingle />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects-carousel" element={<ProjectsCarousel />} />
-          <Route path="/projects-slider" element={<ProjectsSlider />} />
           <Route path="/services" element={<Services />} />
         </Routes>
         

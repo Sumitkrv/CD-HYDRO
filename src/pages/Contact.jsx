@@ -87,7 +87,7 @@ function Contact() {
               <div className="de-box mb-3">
                 <h4>US Office</h4>
                 <address className="s1">
-                  <span><i className="fa-solid fa-location-dot me-2 id-color"></i>100 Solar Ave, San Diego, CA</span>
+                  <span><i className="fa-solid fa-location-dot me-2 id-color"></i>100 Hydro Avenue, San Diego, CA</span>
                   <span><i className="fa-solid fa-phone me-2 id-color"></i>+1 800 987 654</span>
                   <span><i className="fa-solid fa-envelope me-2 id-color"></i><a href="mailto:info@cdhydro.in">info@cdhydro.in</a></span>
                   <span><i className="fa-solid fa-clock me-2 id-color"></i>Mon - Sat 08:00 - 17:00</span>
@@ -97,7 +97,7 @@ function Contact() {
               <div className="de-box mb-3">
                 <h4>UK Office</h4>
                 <address className="s1">
-                  <span><i className="fa-solid fa-location-dot me-2 id-color"></i>45 Solar Street, London, UK</span>
+                  <span><i className="fa-solid fa-location-dot me-2 id-color"></i>45 Hydro Street, London, UK</span>
                   <span><i className="fa-solid fa-phone me-2 id-color"></i>+44 20 7946 0958</span>
                   <span><i className="fa-solid fa-envelope me-2 id-color"></i><a href="mailto:info@cdhydro.in">info@cdhydro.in</a></span>
                   <span><i className="fa-solid fa-clock me-2 id-color"></i>Mon - Fri 09:00 - 18:00</span>

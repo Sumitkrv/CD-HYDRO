@@ -1,6 +1,37 @@
 import { Link } from 'react-router-dom';
 
 function Index() {
+  const homeServices = [
+    {
+      title: 'Hydroelectric Power Plants',
+      desc: 'Long-life hydropower assets delivering dependable, low-carbon electricity for decades.',
+      img: '/assets/images/background/1.webp',
+      tag: 'Clean Baseload'
+    },
+    {
+      title: 'Green Hydrogen Production',
+      desc: "Hydro-powered electrolysis supporting India's hydrogen transition and net-zero pathway.",
+      img: '/assets/images/background/2.webp',
+      tag: 'Future Fuel'
+    },
+    {
+      title: 'Grid Stability Solutions',
+      desc: 'Flexible generation that stabilizes renewable-heavy grids and improves reliability.',
+      img: '/assets/images/background/3.webp',
+      tag: 'Smart Grid'
+    },
+  ];
+
+  const groupWebsites = [
+    { name: 'CD Hydro Energy', logo: '/assets/images/background/1.webp', href: '#' },
+    { name: 'CD Hydro Infra', logo: '/assets/images/background/2.webp', href: '#' },
+    { name: 'CD Renewables', logo: '/assets/images/background/3.webp', href: '#' },
+    { name: 'CD Grid Tech', logo: '/assets/images/background/4.webp', href: '#' },
+    { name: 'CD Green Fuels', logo: '/assets/images/background/4.webp', href: '#' },
+    { name: 'CD Utilities', logo: '/assets/images/background/5.webp', href: '#' },
+    { name: 'CD Transmission', logo: '/assets/images/background/6.webp', href: '#' },
+  ];
+
   return (
     <div className="no-bottom no-top" id="content">
 
@@ -72,9 +103,9 @@ function Index() {
           <div className="row gy-4 gx-5 align-items-center">
             <div className="col-lg-6">
               <div className="position-relative">
-                <div className="position-relative overflow-hidden z-2 mb-5 rounded-1 mb-4 w-60 soft-shadow wow zoomIn"><img src="/assets/images/misc/p1.webp" className="w-100 wow scaleIn" data-wow-duration="1s" alt="" /></div>
+                <div className="position-relative overflow-hidden z-2 mb-5 rounded-1 mb-4 w-60 soft-shadow wow zoomIn"><img src="/assets/images/background/1.webp" className="w-100 wow scaleIn" data-wow-duration="1s" alt="" /></div>
                          
-                <div className="position-absolute overflow-hidden top-0 end-0 mt-5 rounded-1 mb-4 w-60 wow zoomIn" data-wow-delay=".2s"><img src="/assets/images/misc/p2.webp" className="w-100 wow scaleIn" data-wow-duration="1s" alt="" />
+                <div className="position-absolute overflow-hidden top-0 end-0 mt-5 rounded-1 mb-4 w-60 wow zoomIn" data-wow-delay=".2s"><img src="/assets/images/background/2.webp" className="w-100 wow scaleIn" data-wow-duration="1s" alt="" />
                 </div>
               </div>
             </div>
@@ -124,7 +155,68 @@ function Index() {
       </section>
 
 
-      <section className="bg-light">
+      <section style={{background: 'linear-gradient(180deg, #f7fbff 0%, #eef5fb 100%)', position: 'relative', overflow: 'hidden'}}>
+        <div style={{position: 'absolute', top: '-120px', right: '-90px', width: '320px', height: '320px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(0,170,255,0.20) 0%, rgba(0,170,255,0.03) 55%, rgba(0,170,255,0) 72%)'}}></div>
+        <div style={{position: 'absolute', bottom: '-130px', left: '-100px', width: '340px', height: '340px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(12,77,125,0.14) 0%, rgba(12,77,125,0.03) 55%, rgba(12,77,125,0) 72%)'}}></div>
+
+        <style>{`
+          .home-services-row {
+            transition: background-color .35s ease;
+          }
+          .home-services-row .hs-media {
+            border-radius: 12px;
+            overflow: hidden;
+          }
+          .home-services-row .hs-media img {
+            transition: transform .7s cubic-bezier(.22,.61,.36,1);
+          }
+          .home-services-row .hs-content {
+            transition: transform .35s ease;
+          }
+          .home-services-row .hs-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            color: var(--color-2, #00aaff);
+            text-decoration: none;
+          }
+          .home-services-row .hs-link-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 999px;
+            border: 1px solid rgba(0,170,255,.35);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            transition: all .25s ease;
+          }
+          .home-services-row:hover .hs-media img {
+            transform: scale(1.07);
+          }
+          .home-services-row:hover .hs-content {
+            transform: translateX(7px);
+          }
+          .home-services-row:hover .hs-link-icon {
+            background: var(--color-2, #00aaff);
+            color: #fff;
+            border-color: transparent;
+          }
+
+          @media (max-width: 991px) {
+            .home-services-row {
+              padding: 16px 0 !important;
+            }
+            .home-services-row .hs-media {
+              height: 190px !important;
+            }
+            .home-services-row .hs-content {
+              padding-top: 4px;
+            }
+          }
+        `}</style>
+
         <div className="container">
           <div className="row g-4 justify-content-center">
             <div className="col-lg-6 text-center">
@@ -132,79 +224,66 @@ function Index() {
               <h2 className="wow fadeInUp" data-wow-delay=".2s">Reliable, Renewable, and <span className="op-3">Climate-Resilient Energy</span></h2>
               <p className="lead mb-0 wow fadeInUp">Hydropower delivers round-the-clock clean energy with grid stability, green hydrogen support, and zero emissions.</p>
               <div className="spacer-single"></div>
-              <div className="spacer-half"></div>
             </div>
           </div>
 
-          <div className="row g-4">
-            <div className="col-lg-4 col-sm-6">
-              <div className="hover">
-                <div className="position-relative overflow-hidden">
-                  <Link to="/services" className="d-block hover">
-                    <div className="position-relative overflow-hidden rounded-1">
-                      <img src="/assets/images/services/1.webp" className="w-100 hover-scale-1-2" alt="" />
+          <div className="row">
+            <div className="col-lg-12">
+              {homeServices.map((service, index) => (
+                <div
+                  key={service.title}
+                  className="home-services-row row align-items-center g-4 wow fadeInUp"
+                  data-wow-delay={`.${index + 1}s`}
+                  style={{
+                    padding: '22px 0',
+                    borderTop: index === 0 ? '1px solid rgba(15,45,80,0.15)' : '1px solid rgba(15,45,80,0.10)'
+                  }}
+                >
+                  <div className={`col-lg-5 ${index % 2 === 1 ? 'order-lg-2' : ''}`}>
+                    <div className="hs-media" style={{height: '230px'}}>
+                      <img src={service.img} alt={service.title} className="w-100 h-100" style={{objectFit: 'cover'}} />
                     </div>
-                  </Link>
-                  <div className="p-30 position-relative bg-white rounded-1 mx-4 mt-min-100">
-                    <div className="position-absolute top-0 end-0 mt-min-30 me-4 circle bg-color w-60px h-60px">
-                      <Link to="/project-single">
-                        <img src="/assets/images/misc/up-right-arrow.webp" className="w-60px p-20" alt="" />
+                  </div>
+
+                  <div className={`col-lg-7 ${index % 2 === 1 ? 'order-lg-1' : ''}`}>
+                    <div className="hs-content">
+                      <div style={{display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '10px'}}>
+                      <span style={{fontSize: '34px', fontWeight: 700, color: 'rgba(10,58,98,0.25)', lineHeight: 1}}>
+                        {String(index + 1).padStart(2, '0')}
+                      </span>
+                      <span
+                        style={{
+                          display: 'inline-block',
+                          fontSize: '12px',
+                          fontWeight: 700,
+                          letterSpacing: '.4px',
+                          textTransform: 'uppercase',
+                          color: '#0c4d7d',
+                          background: 'rgba(18,129,208,0.12)',
+                          borderRadius: '999px',
+                          padding: '6px 12px'
+                        }}
+                      >
+                        {service.tag}
+                      </span>
+                      </div>
+
+                      <h3 style={{marginBottom: '10px'}}>{service.title}</h3>
+                      <p style={{marginBottom: '14px', maxWidth: '620px'}}>{service.desc}</p>
+
+                      <Link to="/services" className="hs-link">
+                        <span>Learn more</span>
+                        <span className="hs-link-icon"><i className="fa-solid fa-arrow-right"></i></span>
                       </Link>
                     </div>
-                    <h4>Hydroelectric Power Plants</h4>
-                    <p className="mb-0">Large-scale clean energy generation with long operational lifespans.</p>
                   </div>
                 </div>
+              ))}
+
+              <div style={{borderTop: '1px solid rgba(15,45,80,0.10)', marginTop: '4px', paddingTop: '28px'}} className="text-center">
+                <Link className="btn-main fx-slide" to="/services"><span>View All Services</span></Link>
               </div>
             </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="hover">
-                <div className="position-relative overflow-hidden">
-                  <Link to="/services" className="d-block hover">
-                    <div className="position-relative overflow-hidden rounded-1">
-                      <img src="/assets/images/services/2.webp" className="w-100 hover-scale-1-2" alt="" />
-                    </div>
-                  </Link>
-                  <div className="p-30 position-relative bg-white rounded-1 mx-4 mt-min-100">
-                    <div className="position-absolute top-0 end-0 mt-min-30 me-4 circle bg-color w-60px h-60px">
-                      <Link to="/project-single">
-                        <img src="/assets/images/misc/up-right-arrow.webp" className="w-60px p-20" alt="" />
-                      </Link>
-                    </div>
-                    <h4>Green Hydrogen Production</h4>
-                    <p className="mb-0">Direct support for India's hydrogen economy and net-zero goals.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="hover">
-                <div className="position-relative overflow-hidden">
-                  <Link to="/services" className="d-block hover">
-                    <div className="position-relative overflow-hidden rounded-1">
-                      <img src="/assets/images/services/3.webp" className="w-100 hover-scale-1-2" alt="" />
-                    </div>
-                  </Link>
-                  <div className="p-30 position-relative bg-white rounded-1 mx-4 mt-min-100">
-                    <div className="position-absolute top-0 end-0 mt-min-30 me-4 circle bg-color w-60px h-60px">
-                      <Link to="/project-single">
-                        <img src="/assets/images/misc/up-right-arrow.webp" className="w-60px p-20" alt="" />
-                      </Link>
-                    </div>
-                    <h4>Grid Stability Solutions</h4>
-                    <p className="mb-0">Ensuring reliable power supply for renewables-heavy grids.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="text-center">
-              <Link className="btn-main fx-slide" to="/services"><span>View All Services</span></Link>
-            </div>
-
           </div>
         </div>
       </section>
@@ -213,9 +292,9 @@ function Index() {
         <div className="container">
           <div className="row g-4 justify-content-center">
             <div className="col-lg-6 text-center">
-              <div className="subtitle wow fadeInUp mb-3">Our Solar Projects</div>
+              <div className="subtitle wow fadeInUp mb-3">Our Hydro Projects</div>
               <h2 className="wow fadeInUp" data-wow-delay=".2s">Powering a Brighter Future <span className="op-3">with Clean Energy</span></h2>
-              <p className="lead mb-0 wow fadeInUp">Explore our latest solar installations—from residential rooftops to commercial systems—each designed for maximum efficiency and sustainability.</p>
+              <p className="lead mb-0 wow fadeInUp">Explore our latest hydroelectric developments—from run-of-river sites to grid support infrastructure—engineered for long-term reliability and clean growth.</p>
               <div className="spacer-single"></div>
               <div className="spacer-half"></div>
             </div>
@@ -241,7 +320,7 @@ function Index() {
                               <p className="mb-0 hover-mh-60">Home Installation</p>
                             </div>
                             <div className="hover-op-05 bg-dark position-absolute w-100 h-100 top-0 start-0 z-2"></div>
-                            <img src="/assets/images/projects/1.webp" className="w-100 hover-scale-1-2" alt="" />
+                            <img src="/assets/images/background/1.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
                         </Link>
@@ -254,11 +333,11 @@ function Index() {
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
                             </div>
                             <div className="position-absolute p-40 bottom-0 z-3">
-                              <h3>GreenMart Supermarket</h3>
-                              <p className="mb-0 hover-mh-60">Solar Panel Upgrades</p>
+                              <h3>RiverGate Hydro Station</h3>
+                              <p className="mb-0 hover-mh-60">Turbine Modernization</p>
                             </div>
                             <div className="hover-op-05 bg-dark position-absolute w-100 h-100 top-0 start-0 z-2"></div>
-                            <img src="/assets/images/projects/2.webp" className="w-100 hover-scale-1-2" alt="" />
+                            <img src="/assets/images/background/2.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
                         </Link>
@@ -275,7 +354,7 @@ function Index() {
                               <p className="mb-0 hover-mh-60">Custom System Design</p>
                             </div>
                             <div className="hover-op-05 bg-dark position-absolute w-100 h-100 top-0 start-0 z-2"></div>
-                            <img src="/assets/images/projects/3.webp" className="w-100 hover-scale-1-2" alt="" />
+                            <img src="/assets/images/background/3.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
                         </Link>
@@ -288,11 +367,11 @@ function Index() {
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
                             </div>
                             <div className="position-absolute p-40 bottom-0 z-3">
-                              <h3>UrbanSolar 360</h3>
-                              <p className="mb-0 hover-mh-60">System Monitoring & Reporting</p>
+                              <h3>Urban Hydro 360</h3>
+                              <p className="mb-0 hover-mh-60">Digital Monitoring & Reporting</p>
                             </div>
                             <div className="hover-op-05 bg-dark position-absolute w-100 h-100 top-0 start-0 z-2"></div>
-                            <img src="/assets/images/projects/4.webp" className="w-100 hover-scale-1-2" alt="" />
+                            <img src="/assets/images/background/4.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
                         </Link>
@@ -309,7 +388,7 @@ function Index() {
                               <p className="mb-0 hover-mh-60">Community Project</p>
                             </div>
                             <div className="hover-op-05 bg-dark position-absolute w-100 h-100 top-0 start-0 z-2"></div>
-                            <img src="/assets/images/projects/5.webp" className="w-100 hover-scale-1-2" alt="" />
+                            <img src="/assets/images/background/6.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
                         </Link>
@@ -322,11 +401,11 @@ function Index() {
                               <img src="/assets/images/misc/up-right-arrow-white.webp" className="w-10 mb-3 wow scaleIn" alt="" />
                             </div>
                             <div className="position-absolute p-40 bottom-0 z-3">
-                              <h3>SunSmart Office</h3>
-                              <p className="mb-0 hover-mh-60">Solar Battery Storage</p>
+                              <h3>PeakFlow Storage Hub</h3>
+                              <p className="mb-0 hover-mh-60">Pumped Storage Integration</p>
                             </div>
                             <div className="hover-op-05 bg-dark position-absolute w-100 h-100 top-0 start-0 z-2"></div>
-                            <img src="/assets/images/projects/6.webp" className="w-100 hover-scale-1-2" alt="" />
+                            <img src="/assets/images/background/7.webp" className="w-100 hover-scale-1-2" alt="" />
                             <div className="gradient-edge-bottom h-50"></div>
                           </div>
                         </Link>
@@ -352,38 +431,78 @@ function Index() {
               <div className="accordion s2 wow fadeInUp">
                 <div className="accordion-section">
                   <div className="accordion-section-title" data-tab="#accordion-a1">
-                    How does solar energy work?
+                    How does hydroelectric power work?
                   </div>
                   <div className="accordion-section-content" id="accordion-a1">
-                    Solar panels absorb sunlight using photovoltaic (PV) cells, which convert it into direct current (DC) electricity. An inverter then transforms that into alternating current (AC), which powers your home or business.
+                    Hydropower converts the energy of moving water into electricity through turbines and generators. Water flow spins the turbine runner, and the connected generator produces grid-ready power.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-a2">
-                    Will solar panels reduce my energy bills?
+                    Can hydropower help reduce power costs?
                   </div>
                   <div className="accordion-section-content" id="accordion-a2">
-                    Yes. By generating your own electricity, you can significantly reduce or even eliminate your monthly utility bills, depending on your system size and energy usage.
+                    Yes. Efficient hydro assets deliver stable, long-term renewable electricity, helping reduce dependence on costly fossil-based generation and improving overall energy economics.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-a3">
-                    Is my home suitable for solar panels?
+                    Where are hydro projects most suitable?
                   </div>
                   <div className="accordion-section-content" id="accordion-a3">
-                    Most homes are. Ideally, you'll need a roof with good sun exposure (minimal shade), enough space for the panels, and a structure in good condition. We provide a free assessment to confirm suitability.
+                    Hydro projects are best suited to locations with reliable water flow, viable elevation drop, and environmental feasibility. Site studies confirm technical and regulatory suitability before execution.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-a4">
-                    What's the lifespan of a solar system?
+                    What is the lifespan of a hydro plant?
                   </div>
                   <div className="accordion-section-content" id="accordion-a4">
-                    Solar panels typically last 25–30 years or more. Inverters and batteries may need replacement sooner, but most systems continue to function well with minimal maintenance.
+                    Hydroelectric plants are long-life assets and can operate for multiple decades with periodic refurbishment, making them one of the most durable renewable infrastructure investments.
                   </div>
                   <div className="accordion-section-title" data-tab="#accordion-a5">
-                    Do solar panels work on cloudy days?
+                    Why is hydropower important for grid stability?
                   </div>
                   <div className="accordion-section-content" id="accordion-a5">
-                    Yes, solar panels still generate electricity in cloudy conditions—just at a lower output. Efficiency may drop by 10–25%, but you'll still be producing power.
+                    Hydropower can ramp quickly and provide dispatchable output, which helps balance intermittent renewables and maintain frequency and voltage stability across the grid.
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section style={{background: '#efefef', padding: '70px 0 55px'}}>
+        <div className="container">
+          <h3 style={{marginBottom: '28px', fontWeight: 600}}>Our Group Websites</h3>
+
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))',
+              gap: '18px',
+              alignItems: 'start'
+            }}
+          >
+            {groupWebsites.map((item) => (
+              <a
+                key={item.name}
+                href={item.href}
+                style={{textDecoration: 'none', color: '#222'}}
+              >
+                <div
+                  style={{
+                    background: '#fff',
+                    border: '1px solid #ddd',
+                    borderRadius: '8px',
+                    padding: '8px',
+                    marginBottom: '10px'
+                  }}
+                >
+                  <img
+                    src={item.logo}
+                    alt={item.name}
+                    style={{width: '100%', height: '80px', objectFit: 'cover', borderRadius: '4px'}}
+                  />
+                </div>
+                <div style={{fontSize: '14px', fontWeight: 600, textAlign: 'center'}}>{item.name}</div>
+              </a>
+            ))}
           </div>
         </div>
       </section>

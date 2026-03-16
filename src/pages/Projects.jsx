@@ -33,7 +33,7 @@ function Projects() {
             <div className="col-lg-12 text-center">
               <div className="subtitle wow fadeInUp mb-3">What We've Done</div>
               <h2 className="wow fadeInUp" data-wow-delay=".2s">Featured Projects</h2>
-              <p className="lead wow fadeInUp" data-wow-delay=".3s">Explore our portfolio of successful solar installations across residential, commercial, and industrial sectors.</p>
+              <p className="lead wow fadeInUp" data-wow-delay=".3s">Explore our portfolio of successful hydro and clean-energy infrastructure across community, commercial, and industrial sectors.</p>
             </div>
           </div>
 
@@ -51,7 +51,7 @@ function Projects() {
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/projects/1.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/1.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>
@@ -67,7 +67,7 @@ function Projects() {
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/projects/2.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/2.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>
@@ -83,7 +83,7 @@ function Projects() {
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/projects/3.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/3.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>
@@ -99,7 +99,7 @@ function Projects() {
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/projects/4.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/4.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>
@@ -115,7 +115,7 @@ function Projects() {
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/projects/5.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/4.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>
@@ -131,7 +131,7 @@ function Projects() {
                     </div>
                     <div className="bg-gradient-trans-bottom-dark"></div>
                   </div>
-                  <img src="/assets/images/projects/6.webp" className="w-100 hover-scale-1-1" alt="" />
+                  <img src="/assets/images/background/5.webp" className="w-100 hover-scale-1-1" alt="" />
                 </Link>
               </div>
             </div>
@@ -154,7 +154,7 @@ function Projects() {
             <div className="col-lg-3 col-6">
               <div className="de-box text-center">
                 <h2 className="id-color-2 mb-0 wow flipInX"><span className="timer" data-to="100000" data-speed="3000">0</span>+</h2>
-                <span className="d-block">Solar Panels Installed</span>
+                <span className="d-block">Hydro Units Commissioned</span>
               </div>
             </div>
 

@@ -10,7 +10,7 @@ function ProjectsSlider() {
           <div className="swiper">
             <div className="swiper-wrapper">
               <div className="swiper-slide">
-                <div className="swiper-inner" data-bgimage="url(/images/projects/1.webp)">
+                <div className="swiper-inner" data-bgimage="url(/assets/images/background/1.webp)">
                   <div className="sw-caption">
                     <div className="container" data-0="opacity:1;" data-300="opacity:0;">
                       <div className="row gx-5 align-items-center justify-content-center text-center">
@@ -30,14 +30,14 @@ function ProjectsSlider() {
               </div>
 
               <div className="swiper-slide">
-                <div className="swiper-inner" data-bgimage="url(/images/projects/2.webp)">
+                <div className="swiper-inner" data-bgimage="url(/assets/images/background/2.webp)">
                   <div className="sw-caption">
                     <div className="container" data-0="opacity:1;" data-300="opacity:0;">
                       <div className="row gx-5 align-items-center justify-content-center text-center">
                         <div className="col-lg-6"> 
                           <div className="sw-text-wrapper">
                             <div className="spacer-double"></div>
-                            <div className="subtitle me-4 id-color">Solar Panel Upgrades</div>
+                            <div className="subtitle me-4 id-color">Turbine Upgrades</div>
                             <h1 className="wow anim-order-1">GreenMart Supermarket</h1>
                             <Link className="btn-main fx-slide" to="/project-single"><span>View Details</span></Link>
                           </div>
@@ -50,7 +50,7 @@ function ProjectsSlider() {
               </div>
 
               <div className="swiper-slide">
-                <div className="swiper-inner" data-bgimage="url(/images/projects/3.webp)">
+                <div className="swiper-inner" data-bgimage="url(/assets/images/background/3.webp)">
                   <div className="sw-caption">
                     <div className="container" data-0="opacity:1;" data-300="opacity:0;">
                       <div className="row gx-5 align-items-center justify-content-center text-center">
@@ -70,7 +70,7 @@ function ProjectsSlider() {
               </div>
 
               <div className="swiper-slide">
-                <div className="swiper-inner" data-bgimage="url(/images/projects/4.webp)">
+                <div className="swiper-inner" data-bgimage="url(/assets/images/background/4.webp)">
                   <div className="sw-caption">
                     <div className="container" data-0="opacity:1;" data-300="opacity:0;">
                       <div className="row gx-5 align-items-center justify-content-center text-center">
@@ -78,7 +78,7 @@ function ProjectsSlider() {
                           <div className="sw-text-wrapper">
                             <div className="spacer-double"></div>
                             <div className="subtitle me-4 id-color">System Monitoring & Reporting</div>
-                            <h1 className="wow anim-order-1">UrbanSolar 360</h1>
+                            <h1 className="wow anim-order-1">Urban Hydro 360</h1>
                             <Link className="btn-main fx-slide" to="/project-single"><span>View Details</span></Link>
                           </div>
                         </div>
@@ -90,7 +90,7 @@ function ProjectsSlider() {
               </div>
 
               <div className="swiper-slide">
-                <div className="swiper-inner" data-bgimage="url(/images/projects/5.webp)">
+                <div className="swiper-inner" data-bgimage="url(/assets/images/background/4.webp)">
                   <div className="sw-caption">
                     <div className="container" data-0="opacity:1;" data-300="opacity:0;">
                       <div className="row gx-5 align-items-center justify-content-center text-center">
@@ -110,14 +110,14 @@ function ProjectsSlider() {
               </div>
 
               <div className="swiper-slide">
-                <div className="swiper-inner" data-bgimage="url(/images/projects/6.webp)">
+                <div className="swiper-inner" data-bgimage="url(/assets/images/background/5.webp)">
                   <div className="sw-caption">
                     <div className="container" data-0="opacity:1;" data-300="opacity:0;">
                       <div className="row gx-5 align-items-center justify-content-center text-center">
                         <div className="col-lg-6"> 
                           <div className="sw-text-wrapper">
                             <div className="spacer-double"></div>
-                            <div className="subtitle me-4 id-color">Solar Battery Storage</div>
+                            <div className="subtitle me-4 id-color">Pumped Storage Integration</div>
                             <h1 className="wow anim-order-1">SunSmart Office</h1>
                             <Link className="btn-main fx-slide" to="/project-single"><span>View Details</span></Link>
                           </div>

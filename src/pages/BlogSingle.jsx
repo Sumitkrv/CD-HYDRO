@@ -35,7 +35,7 @@ function BlogSingle() {
             <div className="col-lg-8">
               <div className="blog-single">
                 <div className="position-relative overflow-hidden rounded-1 mb-4">
-                  <img src="/assets/images/blog/1.webp" className="w-100" alt="" />
+                  <img src="/assets/images/background/1.webp" className="w-100" alt="" />
                 </div>
 
                 <div className="d-flex align-items-center mb-4 flex-wrap gap-3">
@@ -52,14 +52,14 @@ function BlogSingle() {
 
                 <p className="lead">Hydroelectric energy is emerging as the backbone of green hydrogen production in India. With round-the-clock generation capacity and zero emissions, hydro plants provide the stable, affordable electricity that electrolyzers need to split water into hydrogen at scale.</p>
 
-                <p>India's National Hydrogen Mission, launched in 2023, targets 5 million tonnes of green hydrogen production by 2030. Achieving this requires massive amounts of clean electricity—and hydropower is uniquely positioned to deliver it. Unlike solar and wind, which are intermittent by nature, hydroelectric power provides baseload generation 24/7, making it the ideal energy source for continuous electrolyzer operation.</p>
+                <p>India's National Hydrogen Mission, launched in 2023, targets 5 million tonnes of green hydrogen production by 2030. Achieving this requires massive amounts of clean electricity—and hydropower is uniquely positioned to deliver it. Unlike variable renewables, hydroelectric power provides dependable baseload generation, making it an ideal energy source for continuous electrolyzer operation.</p>
 
                 <h4>Why Hydropower Is the Ideal Partner for Green Hydrogen</h4>
 
                 <p>Green hydrogen production through electrolysis requires a consistent, high-volume supply of clean electricity. Here's why hydropower stands out:</p>
 
                 <ul>
-                  <li><strong>Round-the-clock availability:</strong> Hydro plants generate power continuously, unlike solar (daytime only) or wind (variable). This maximizes electrolyzer utilization and reduces the cost per kg of hydrogen produced.</li>
+                  <li><strong>Round-the-clock availability:</strong> Hydro plants generate power continuously and reliably. This maximizes electrolyzer utilization and reduces the cost per kg of hydrogen produced.</li>
                   <li><strong>Zero carbon emissions:</strong> Hydropower produces no direct greenhouse gas emissions, ensuring the hydrogen produced is truly "green" under international certification standards.</li>
                   <li><strong>Grid stability:</strong> Hydro provides frequency regulation and spinning reserves, stabilizing the grid as more intermittent renewables come online.</li>
                   <li><strong>Long asset life:</strong> Hydropower plants operate for 50–100 years, providing decades of predictable, low-cost electricity for hydrogen production.</li>
@@ -110,7 +110,7 @@ function BlogSingle() {
                   <Link to="/blog-single" style={{textDecoration: 'none', color: 'inherit'}}>
                     <div className="d-flex gap-3 align-items-start">
                       <div className="overflow-hidden rounded-1 flex-shrink-0" style={{width: '80px', height: '60px'}}>
-                        <img src="/assets/images/blog/2.webp" className="w-100 h-100" style={{objectFit: 'cover'}} alt="" />
+                        <img src="/assets/images/background/2.webp" className="w-100 h-100" style={{objectFit: 'cover'}} alt="" />
                       </div>
                       <div style={{minWidth: 0}}>
                         <h6 className="mb-1" style={{lineHeight: '1.4', fontSize: '14px', wordBreak: 'break-word', whiteSpace: 'normal'}}>Small Hydro Projects: Unlocking Rural India's Energy Potential</h6>
@@ -123,7 +123,7 @@ function BlogSingle() {
                   <Link to="/blog-single" style={{textDecoration: 'none', color: 'inherit'}}>
                     <div className="d-flex gap-3 align-items-start">
                       <div className="overflow-hidden rounded-1 flex-shrink-0" style={{width: '80px', height: '60px'}}>
-                        <img src="/assets/images/blog/3.webp" className="w-100 h-100" style={{objectFit: 'cover'}} alt="" />
+                        <img src="/assets/images/background/3.webp" className="w-100 h-100" style={{objectFit: 'cover'}} alt="" />
                       </div>
                       <div style={{minWidth: 0}}>
                         <h6 className="mb-1" style={{lineHeight: '1.4', fontSize: '14px', wordBreak: 'break-word', whiteSpace: 'normal'}}>Green Hydrogen: Why Hydro-Powered Electrolysis is the Future</h6>
@@ -136,7 +136,7 @@ function BlogSingle() {
                   <Link to="/blog-single" style={{textDecoration: 'none', color: 'inherit'}}>
                     <div className="d-flex gap-3 align-items-start">
                       <div className="overflow-hidden rounded-1 flex-shrink-0" style={{width: '80px', height: '60px'}}>
-                        <img src="/assets/images/blog/5.webp" className="w-100 h-100" style={{objectFit: 'cover'}} alt="" />
+                        <img src="/assets/images/background/4.webp" className="w-100 h-100" style={{objectFit: 'cover'}} alt="" />
                       </div>
                       <div style={{minWidth: 0}}>
                         <h6 className="mb-1" style={{lineHeight: '1.4', fontSize: '14px', wordBreak: 'break-word', whiteSpace: 'normal'}}>How Pumped Storage Hydro Stabilizes India's Renewable Grid</h6>

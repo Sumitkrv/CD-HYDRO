@@ -34,7 +34,7 @@ function About() {
               <h5 className="wow fadeInRight">About Us</h5>
             </div>
             <div className="col-lg-9">
-              <h3 className="wow fadeInRight" data-wow-delay=".2s">Switch to solar and save money while saving the planet. Our expert team provides clean, reliable energy solutions for homes and businesses. <span className="op-3">Go green, reduce your bills, and enjoy energy independence today!</span></h3>
+              <h3 className="wow fadeInRight" data-wow-delay=".2s">Hydropower helps deliver clean, dependable energy while lowering long-term emissions. Our expert team develops and manages hydro solutions for communities, industries, and utilities. <span className="op-3">Build resilient infrastructure, support net-zero goals, and secure reliable power for the future.</span></h3>
 
               <div className="spacer-single"></div>
 
@@ -42,7 +42,7 @@ function About() {
                 <div className="col-md-3 col-sm-6">
                   <div className="de_count lh-1-6 wow fadeInRight" data-wow-delay=".2s">
                     <h3 className="fs-40 mb-0"><span className="timer" data-to="100" data-speed="3000">0</span>K+</h3>
-                    Solar Panels Installed
+                    MWh Clean Energy Generated
                   </div>
                 </div>
                 <div className="col-md-3 col-sm-6">
@@ -54,7 +54,7 @@ function About() {
                 <div className="col-md-3 col-sm-6">
                   <div className="de_count lh-1-6 wow fadeInRight" data-wow-delay=".6s">
                     <h3 className="fs-40 mb-0"><span className="timer" data-to="16" data-speed="3000">0</span>+</h3>
-                    Years of Solar Expertise
+                    Years of Hydro Expertise
                   </div>
                 </div>
               </div>
@@ -69,25 +69,25 @@ function About() {
           <div className="row gy-4 gx-5 align-items-center">
             <div className="col-lg-6">
               <div className="position-relative">
-                <div className="position-relative overflow-hidden z-2 mb-5 rounded-1 mb-4 w-60 soft-shadow wow zoomIn"><img src="/assets/images/misc/p1.webp" className="w-100 wow scaleIn" data-wow-duration="1s" alt="" /></div>
+                <div className="position-relative overflow-hidden z-2 mb-5 rounded-1 mb-4 w-60 soft-shadow wow zoomIn"><img src="/assets/images/background/1.webp" className="w-100 wow scaleIn" data-wow-duration="1s" alt="" /></div>
                          
-                <div className="position-absolute overflow-hidden top-0 end-0 mt-5 rounded-1 mb-4 w-60 wow zoomIn" data-wow-delay=".2s"><img src="/assets/images/misc/p2.webp" className="w-100 wow scaleIn" data-wow-duration="1s" alt="" />
+                <div className="position-absolute overflow-hidden top-0 end-0 mt-5 rounded-1 mb-4 w-60 wow zoomIn" data-wow-delay=".2s"><img src="/assets/images/background/2.webp" className="w-100 wow scaleIn" data-wow-duration="1s" alt="" />
                 </div>
               </div>
             </div>
 
             <div className="col-lg-6">
-              <div className="subtitle id-color wow fadeInUp" data-wow-delay=".0s">Solar Power for Smarter Future</div>
+              <div className="subtitle id-color wow fadeInUp" data-wow-delay=".0s">Hydropower for a Smarter Future</div>
               <h2 className="wow fadeInUp" data-wow-delay=".2s">Clean, Reliable Energy Made <span className="op-3">Simple and Affordable</span></h2>
-              <p className="wow fadeInUp" data-wow-delay=".4s">Discover the power of the sun with our end-to-end solar energy solutions. Whether you're looking to reduce your electricity bills, increase property value, or lower your carbon footprint, we make it easy to go solar.</p>
+              <p className="wow fadeInUp" data-wow-delay=".4s">Discover the power of water with our end-to-end hydro energy solutions. Whether your goal is energy security, long-term operating efficiency, or measurable decarbonization, we make hydro deployment practical and scalable.</p>
 
               <div className="border-bottom mb-4"></div>
 
               <ul className="ul-check fw-600 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                <li>Save money by generating your own power.</li>
-                <li>Reduce your carbon footprint and protect the planet.</li>
-                <li>Solar homes often see a higher resale value.</li>
-                <li>Reduce reliance on the grid and rising utility costs.</li>
+                <li>Enable long-life renewable generation from reliable water resources.</li>
+                <li>Reduce lifecycle emissions and support climate goals.</li>
+                <li>Improve grid resilience with dispatchable clean power.</li>
+                <li>Lower dependence on volatile fossil-based generation costs.</li>
               </ul>
 
               <Link className="btn-main fx-slide wow fadeInUp" data-wow-delay=".9s" to="/get-a-quote"><span>Get a Quote</span></Link>
@@ -107,13 +107,13 @@ function About() {
               <div className="position-relative">
                 <div className="bg-blur text-light text-center rounded-1 position-absolute w-200px p-4 m-4 bottom-0 z-3 overflow-hidden wow zoomIn">
                   <h2 className="mb-0">325%</h2>
-                  <p className="lh-1-5">Average increase in solar panel</p>
+                  <p className="lh-1-5">Hydro asset lifecycle reliability index</p>
                 </div>
                 <div className="rounded-1 w-90 overflow-hidden wow zoomIn">
-                  <img src="/assets/images/misc/s4.webp" className="w-100 wow scaleIn" alt="" />
+                  <img src="/assets/images/background/6.webp" className="w-100 wow scaleIn" alt="" />
                 </div>
                 <div className="rounded-1 w-50 position-absolute mb-min-50 end-0 bottom-0 z-2 overflow-hidden shadow-soft wow zoomIn" data-wow-delay=".2s">
-                  <img src="/assets/images/misc/s1.webp" className="w-100 wow scaleIn" data-wow-delay=".2s" alt="" />
+                  <img src="/assets/images/background/3.webp" className="w-100 wow scaleIn" data-wow-delay=".2s" alt="" />
                 </div>
               </div>
             </div>
@@ -126,7 +126,7 @@ function About() {
                   <div className="h-100 rounded-1">
                     <div className="position-relative wow fadeInUp" data-wow-delay=".0s">
                       <h4>Professional Team</h4>
-                      <p className="mb-0">Certified professionals with years of solar installation experience.</p>
+                      <p className="mb-0">Certified professionals with years of hydro engineering and execution experience.</p>
                     </div>
                   </div>
                 </div>
@@ -162,7 +162,7 @@ function About() {
                   <div className="h-100 rounded-1">
                     <div className="position-relative wow fadeInUp" data-wow-delay=".8s">
                       <h4>Top-Tier Equipment</h4>
-                      <p className="mb-0">We use premium solar panels and inverters for maximum efficiency.</p>
+                      <p className="mb-0">We use high-performance hydro turbines, controls, and monitoring systems.</p>
                     </div>
                   </div>
                 </div>
